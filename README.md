@@ -3,3 +3,7 @@
 Nous nous proposons de faire une base de données qui va se charger
 d'implémenter un systeme d'assistant job
 
+## participants 
+
+- KANTEU ANANGA
+
