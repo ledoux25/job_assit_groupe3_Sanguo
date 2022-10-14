@@ -8,6 +8,7 @@ CREATE TABLE APPLICANTS(
     password VARCHAR(80 CHAR)NOT NULL,
     location_id interger NOT NULL,
     status VARCHAR(15 CHAR) NOT NULL
+    compte_premium boolean();
     );
     PROMPT Creating table PROPOSER
 CREATE TABLE PROPOSERS(
@@ -17,6 +18,7 @@ CREATE TABLE PROPOSERS(
     phone_number NUMBER(),
     email VARCHAR(80 CHAR)NOT NULL,
     password VARCHAR(80 CHAR)NOT NULL,
+    compte_premium boolean();
     );
     PROMPT Creating table JOB_HISTORIES
     CREATE TABLE  JOB_HISTORIES(
@@ -41,4 +43,10 @@ CREATE TABLE OFFERS(
     location_id INTEGER,
     job_id VARCHAR(50),
     statut BOOLEAN
-)
+);
+PROMPT Creating table locations
+CREATE TABLE IF NOT EXISTS location
+(
+    location_id integer NOT NULL,
+    city varchar(70) NOT NULL
+);
