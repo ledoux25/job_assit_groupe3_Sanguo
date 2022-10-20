@@ -1,27 +1,35 @@
+PROMPT Creatig PRIMARY KEYS
 
-
-ALTER TABLE applicant_id
+ALTER TABLE applicants
 ADD
-CONSTRAINT applicant_id_pk PRIMARY KEY
+CONSTRAINT applicants_applicant_id_pk PRIMARY KEY (applicant_id);
 
 
-ALTER TABLE proposer_id
+ALTER TABLE proposers
 ADD
-CONSTRAINT proposer_id_pk PRIMARY KEY
+CONSTRAINT proposers_proposer_id_pk PRIMARY KEY (proposer_id);
  
 
-ALTER TABLE job_history_id
+ALTER TABLE job_histories
 ADD
-CONSTRAINT job_history_id_pk PRIMARY KEY
+CONSTRAINT job_histories_job_history_id_pk PRIMARY KEY (job_history_id);
 
 
-ALTER TABLE job_id
+ALTER TABLE jobs
 ADD
-CONSTRAINT job_id_pk PRIMARY KEY
+CONSTRAINT jobs_job_id_pk PRIMARY KEY (job_id);
 
 
-ALTER TABLE job_history_id
+ALTER TABLE locations
 ADD
-CONSTRAINT job_history_id_pk PRIMARY KEY
+CONSTRAINT locations_location_id_pk PRIMARY KEY (location_id);
+
+ALTER TABLE OFFERS
+ADD
+CONSTRAINT offers_offer_id_pk PRIMARY KEY (offer_id);
+
+ALTER TABLE LEVELS
+ADD
+CONSTRAINT levels_level_id_pk PRIMARY KEY (level_id);
  
 --BY CHIEMO WANDJI

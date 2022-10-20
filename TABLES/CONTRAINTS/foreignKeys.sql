@@ -1,21 +1,34 @@
-ALTER TABLE APPLICANT
+PROMPT Creating foreignKeys
+
+ALTER TABLE APPLICANTS
 ADD
-CONSTRAINT fk_locations FOREIGN KEY (location_id)
-REFERENCES LOCATIONS(location_id);
+CONSTRAINT applicants_location_id_fk FOREIGN KEY (location_id)
+REFERENCES LOCATIONS (location_id);
+
+ALTER TABLE APPLICANTS
+ADD
+CONSTRAINT applicants_level_id_fk FOREIGN KEY (level_id)
+REFERENCES LEVELS (level_id);
+
+
+ALTER TABLE PROPOSERS
+ADD
+CONSTRAINT proposers_level_id_fk FOREIGN KEY (level_id)
+REFERENCES LEVELS (level_id);
 
 ALTER TABLE OFFERS
 ADD 
-CONSTRAINT fk_job_id FOREIGN KEY (job_id)
-REFERENCES jobs(job_id)
+CONSTRAINT offers_job_id_fk FOREIGN KEY (job_id)
+REFERENCES jobs(job_id);
 
 ALTER TABLE OFFERS
 ADD
-CONSTRAINT fk_Offrer FOREIGN KEY (offrer_id)
-REFERENCES OFFRER(offrer_id)
+CONSTRAINT offers_proposer_id_fk FOREIGN KEY (proposer_id)
+REFERENCES PROPOSERS(proposer_id);
 
 ALTER TABLE OFFERS
 ADD
-CONSTRAINT fk_offrer FOREIGN KEY (applicant_id)
-REFERENCES APPLICANT
+CONSTRAINT offers_applicant_id_fk FOREIGN KEY (applicant_id)
+REFERENCES APPLICANTS(applicant_id);
 
 -- By toko --
