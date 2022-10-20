@@ -1,120 +1,114 @@
 PROMPT creating comments offers by kanteu maxime
--- comment on table offers
+
 comment on table offers
 is 'Details of the of offers in general';
 
 comment on column offers.offer_id
-is ' Auto_incrementing primary key';
+is ' Auto_incrementing primary key of offers';
 
 comment on column offers.publication_date
-is 'the date of which the publication was made';
-
-comment on column offers.applicant_id
-is 'Auto_incrementing forein key refer to table applicant';
-
-comment on column offers.offer_offer_id
-is ' Auto_incrementing forein key refer to table offer';
-
-comment on column offers.location_location_id
-is ' Auto_incrementing forein key refer to table locations';
-
-comment on column offers.job_job_id 
-is ' Auto_incrementing forein key refer to table jobs';
+is 'the date of the publication of the offer ';
 
 comment on column offers.statut
 is 'the set of texts that resolve the situation of the offers';
 
+
+
 PROMPT creating comments locations by kanteu maxime
--- comment table locations
 comment on table locations
-is 'describe the applicant location'
+is 'describe the available loactions'
+
 comment on column locations.location_id
 is ' Auto_incrementing primary key';
 
 comment on column locations.city
-is 'shows the city where the applicant is located';
+is 'The name of the city';
 
-PROMPT creating comments offer by kanteu maxime
--- comment table offer
-Comment on table offer
-is 'gives detail on an offer';
 
-comment on column offer.offer_id 
+
+PROMPT creating comments proposer by kanteu maxime
+
+Comment on table PROPOSERS
+is 'gives detail on a PROPOSERS';
+
+comment on column PROPOSERS.proposer_id 
 is 'Auto-incrementing primary key';
 
-comment on column  offer.first_name 
-is ' the name of the offer';
+comment on column  PROPOSERS.first_name 
+is ' the name of the PROPOSER';
 
-comment on column  applicant.last_name 
-is ' the offer surname ';
+comment on column  PROPOSERS.last_name 
+is ' the PROPOSER surname ';
 
-comment on column offer.phone_number 
-is 'the phone number of the offer';
+comment on column PROPOSERS.phone_number 
+is 'the phone number of the PROPOSER';
 
-comment on column offer.email
-  is 'The email address that an offer will used to access his/her account';
+comment on column PROPOSERS.email
+  is 'The email address of the PROPOSER';
 
-  comment on column offer.gender 
-  is 'to determine the sex of the offer';
+comment on column PROPOSERS.gender 
+is 'to determine the sex of the offer';
 
-  PROMPT creating comments jobs by malonju
 
--- comment on table jobs
+
+PROMPT creating comments jobs by malonju
 comment on table jobs
-is 'details on an applicant job ';
+is 'Differrent jobs avaible';
 
 comment on column jobs. job_id
 is 'Auto-incrementing primary key';
 
 comment on column jobs. job_title
-is 'it is  the  name of work';
+is 'The name of a job';
+
+
 
 PROMPT creating comments applicant by malonju
---comment on applicant
-comment on table applicant
+comment on table applicants
 is 'detail or information on an applicant ';
 
-comment on column applicant .aplicant_id 
+comment on column applicants.applicant_id 
 is 'Auto-incrementing primary key';
 
-comment on column  applicant.first_name 
+comment on column  applicants.first_name 
 is ' the name of the applicant';
 
-comment on column  applicant.last_name 
+comment on column  applicants.last_name 
 is ' the applicant surname ';
 
-comment on column applicant.phone_number 
+comment on column applicants.phone_number 
 is 'the phone number of the applicant';
 
-comment on column applicant.email
-  is 'The email address that an applicant will used to access his/her account';
+comment on column applicants.email
+is 'The email address of an applicant ';
 
-  comment on column applicant.gender 
-  is 'to determine the sex of the applicant';
-
-  comment on column applicant . location_id 
-  is ' to locate the applicant';
+comment on column applicants.gender 
+is 'to determine the sex of the applicant';
   
-  comment on column applicant.statut
-  is 'gives us imformation on his actual occupation';
+comment on column applicants.status
+is 'to if te applicant is free or occupied';
 
-  comment on column applicant.job_id
-  is 'Auto_incrementing forein key refer to table jobs';
 
-PROMPT creating comments job_history by malonju
--- Comment of job_history
+PROMPT creating comments job_histories by malonju
 
-comment on the table job_history
+comment on  table job_histories
 is 'for ressence the previous works of applicant ';
 
-comment on column job_history . job_history_id
+comment on column job_histories.job_history_id
 is 'Auto-incrementing primary key';
 
-comment on culumn job_history.starts_date
-is "it's date when the works bigins";
+comment on column job_histories.start_date
+is 'the beginning of previous/actual job';
 
-comment on culumn job_history.end_date
-is "it's shows us when the applicant end his/her previous work";
+comment on column job_histories.end_date
+is 'the end of the previous job';
 
-comment on column job_history.applicant_id
-  is 'Auto_incrementing forein key refer to table applicant';
+PROMPT creating comments LEVELS by malonju
+comment on TABLE levels
+is 'the level pf advantages of an user';
+comment on column levels.label
+is 'the label of the level';
+comment on column levels.price
+is 'the price of a level';
+comment on column levels.level_id
+is 'Auto-incrementing primary key';
