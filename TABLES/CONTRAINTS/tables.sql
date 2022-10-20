@@ -52,3 +52,7 @@ CREATE TABLE LOCATIONS
     location_id integer NOT NULL,
     city varchar(70) NOT NULL
 );
+
+
+
+
