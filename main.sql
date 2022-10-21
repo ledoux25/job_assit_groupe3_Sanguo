@@ -17,3 +17,4 @@ conn co/&ja_password@&connect_string
 @@TABLES\CONTRAINTS\tables
 @@TABLES\CONTRAINTS\comments
 @@TABLES\CONTRAINTS\contraints
+

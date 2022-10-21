@@ -71,6 +71,7 @@ CREATE TABLE LOCATIONS
     city varchar(70) NOT NULL
 );
 
+
 PROMPT Creating table Level
 CREATE TABLE levels
 (
