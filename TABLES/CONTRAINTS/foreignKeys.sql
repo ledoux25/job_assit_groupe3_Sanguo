@@ -31,4 +31,13 @@ ADD
 CONSTRAINT offers_applicant_id_fk FOREIGN KEY (applicant_id)
 REFERENCES APPLICANTS(applicant_id);
 
--- By toko --
+ALTER TABLE JOB_HISTORIES
+ADD
+CONSTRAINT applicant_id_fk FOREIGN KEY (applicant_id)
+REFERENCES APPLICANTS(applicant_id);
+
+ALTER TABLE JOB_HISTORIES
+ADD
+CONSTRAINT offers_proposer_id_fk FOREIGN KEY (proposer_id)
+REFERENCES PROPOSERS(proposer_id);
+-- By toko and ledoux--

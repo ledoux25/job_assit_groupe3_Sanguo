@@ -1,15 +1,29 @@
-PROMT INSERTING into LOCATIONS
-set define off
+
+PROMPT INSERTING into JOBS
+SET DEFINE OFF;
 begin
-INSERT INTO locations(location_id,city)  VALUE(1,'Douala');
-INSERT INTO locations(location_id,city)  VALUE(2,'Yaounde');
-INSERT INTO locations(location_id,city)  VALUE(3,'Limbe');
-INSERT INTO locations(location_id,city)  VALUE(4,'kumba');
-INSERT INTO locations(location_id,city)  VALUE(5,'kribi');
-INSERT INTO locations(location_id,city)  VALUE(6,'Bangangte');
-INSERT INTO locations(location_id,city)  VALUE(7,'loum');
-INSERT INTO locations(location_id,city)  VALUE(8,'Bertoua');
-INSERT INTO locations(location_id,city)  VALUE(9,'Mbanga');
-INSERT INTO locations(location_id,city)  VALUE(10,'Nkonssamba');
-INSERT INTO locations(location_id,city)  VALUE(11,'Tschang');
-INSERT INTO locations(location_id,city)  VALUE(11,'Bafia');
+insert into LOCATIONS(location_id,city) VALUES ('DOUL','DOUALA');
+insert into LOCATIONS(location_id,city) VALUES ('YAOU','YAOUNDE');
+insert into LOCATIONS(location_id,city) VALUES ('BERT','BERTOUA');
+insert into LOCATIONS(location_id,city) VALUES ('LIMB','LIMBE');
+insert into LOCATIONS(location_id,city) VALUES ('BAFF','BAFFOUSSAM');
+insert into LOCATIONS(location_id,city) VALUES ('BAND','BANDJOUN');
+insert into LOCATIONS(location_id,city) VALUES ('GARO','GAROUA');
+insert into LOCATIONS(location_id,city) VALUES ('MARO','MAROUA');
+insert into LOCATIONS(location_id,city) VALUES ('BAME','BAMENDA');
+insert into LOCATIONS(location_id,city) VALUES ('MELO','MELON');
+insert into LOCATIONS(location_id,city) VALUES ('BEUA','BEUA');
+insert into LOCATIONS(location_id,city) VALUES ('BAFA','BAFANG');
+insert into LOCATIONS(location_id,city) VALUES ('DSCH','DSCHANG');
+INSERT INTO locations(location_id,city) VALUES ('KUMB','KUMBA');
+INSERT INTO locations(location_id,city) VALUES ('KRIB','KRIBI');
+INSERT INTO locations(location_id,city) VALUES ('BAGA','BAGANTE');
+INSERT INTO locations(location_id,city) VALUES ('LOUM','LOUM');
+INSERT INTO locations(location_id,city) VALUES ('MBOU','MBOUDA');
+INSERT INTO locations(location_id,city) VALUES ('MBAN','MBANGA');
+INSERT INTO locations(location_id,city) VALUES ('NKON','NKONSSAMBA');
+INSERT INTO locations(location_id,city) VALUES ('BAFI','BAFIA');
+end;
+/
+
+

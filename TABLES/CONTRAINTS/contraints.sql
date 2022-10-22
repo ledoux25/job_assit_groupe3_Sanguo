@@ -34,15 +34,23 @@ constraint uniqe_email unique (email);
 
 alter table applicants 
 add 
+constraint unique_number unique (phone_number);
+
+alter table applicants 
+add 
 constraint uique_password unique (password);
 
-alter table proposers 
-add 
-constraint unique_emai unique (email);
+-- alter table proposers 
+-- add 
+-- constraint unique_emai unique (email);
 
-alter table proposers 
-add 
-constraint unique_password unique (password);
+-- alter table proposers 
+-- add 
+-- constraint unique_number unique (phone_number);
+
+-- alter table proposers 
+-- add 
+-- constraint unique_password unique (password);
 
 alter table jobs
 add 
@@ -56,5 +64,18 @@ alter table locations
 add 
 constraint unique_city unique (city);
 
+alter table APPLICANTS add constraint  work_status
+ check (status in 
+( 'OCCUPE','LIBRE'));
+                
+alter table PROPOSERS add constraint  gender_id
+ check (gender in 
+( 'M','F'));
+
+alter table APPLICANTS add constraint  gender_id
+ check (gender in 
+( 'M','F'));
+                
+                    
 @@PrimaryKeys
 @@foreignKeys
