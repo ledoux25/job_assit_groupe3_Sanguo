@@ -38,6 +38,6 @@ REFERENCES APPLICANTS(applicant_id);
 
 ALTER TABLE JOB_HISTORIES
 ADD
-CONSTRAINT offers_proposer_id_fk FOREIGN KEY (proposer_id)
+CONSTRAINT proposer_id_fk FOREIGN KEY (proposer_id)
 REFERENCES PROPOSERS(proposer_id);
 -- By toko and ledoux--

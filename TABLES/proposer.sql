@@ -3,7 +3,7 @@ PROMPT INSERTING PROPOSERS
 begin
 INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (1,'Sanguo','Joseph','690-379-063','sanguojoseph1@gmail.com','SAJO12$','PREM','M');
 INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (2,'Temfack','Danielle','656-544-779','temfackdanielle2@yahoo.fr','TEDA15@','GRAT','F');
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (3,'Biyack','Florent','690-379-063','biyackflorent@gmail.com','BIFL13','STAN','M');
+INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (3,'Biyack','Florent','690-329-063','biyackflorent@gmail.com','BIFL13','STAN','M');
 INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (4,'Chiemo','Patrice','655-436-213','chiemopatrice22@gmail.com','CHPA19','DIAM','M');
 INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (5,'Mouasso','Leolyn','657-884-649','leolynmouasso@yahoo.fr','LEMO17','GRAT','M');
 INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (6,'Djudja','Fleu','655-203-131','djudjafleur@gmail.com','DJLF1','STAN','F');
@@ -13,7 +13,7 @@ INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,passwo
 INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (10,'Folack','Junior','693-425-738','juniorfolack@yahoo.fr','F0JU23','GRAT','M');
 INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (11,'Itod','Wilfried','699-927-963','itodwil@gmail.com','WILIT13','GRAT','M');
 INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (12,'Ananga','Maxime','690-379-678','maximeananga@gmail.com','MAAN35','GRAT','M');
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (13,'Yemelon','Ernadez','625-277-578','ernandezyeelong@gmail.com','BIFL13','GRAT','M');
+INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (13,'Yemelon','Ernadez','625-277-578','ernandezyeelong@gmail.com','  ERYEM3','GRAT','M');
 INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (14,'Makolo','Megane','657-245-567','meganemakolo@yahoo.fr','MAEK13','DIAM','F');
 INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (15,'Mbah','Cynthie','675-866-122','cynthiamakam@gmail.com','MACY453','GRAT','F');
 INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (16,'Kemachou','Dariel','697-063-596','darielkematchou@gmail.com','DAKEM13','GRAT','F');
@@ -26,70 +26,6 @@ INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,passwo
 INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (23,'Mamjo','Krissy','655-306-356','mamjokrissy@gmail.com','MAJO5513','STAN','F');
 INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (24,'Setubi','Tchuenguia','692-263-456','setubitchuengiau@gmail.com','SETTC43','PREM','F');
 INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (25,'Tanko','Ella','652-245-436','allatanko@gmail.com','ELTAN53','STAN','F');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (2,'Temfack','Danielle','656-544-779','temfackdanielle2@YAHOO.fr','TEDA15@','GRAT','F');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (3,'Biyack','Florent','690-379-063','BGBG@BG.gmail.com','SJ1R','PREM','M');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (4,'Wandji','Patrice','655-436-213','Wapalu2004@gmail.com.com','PADDLA','PREM','M');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (5,'Djouda','Patric','690-456-484','patdju@gmail.com','Dadju123','STD','M');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (6,'Malonju','Laure','677-012-352','bibchelaure@yahoo.com','bilie64','GRA','F');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (7,'Nzomo','Rabier','692-097-484','patdju@gmail.com','nfcr-7','STD','M');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (8,'Youta','Joel','655-406-324','joelyou@yahoo.com','azer25','DIA','M');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (9,'Doe','John','666-554-201','johndoe@gmail.com','dam21s','PREM','M');
-
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (10,'Rick','Jackson','003265251046','jack@gmail.com','jackjohn','PREM','M');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (11,'Sonfack','Manuella','620162151','Manuellafack@yahoo.fr','TEDA15@','GRAT','F');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (12,'Toko','Michel','677-790-063','MichelBriant@yahoo.com','SJ1R','PREM','M');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (13,'Robert','Patrice','658-021-919','robertwandji21@gmail.com','PADDLA','PREM','M');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (14,'Mbah','Jenny','698-721-321','jen68@gmail.com','Dadju123','STD','F');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (15,'Keys','Alicia','621-150-684','alikeys@yahoo.com','Akey2','DIA','F');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (16,'Goku','Son','652-301-001','patdju@gmail.com','songoku-7','GRAT','M');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (17,'Wologie','Appolain','655-406-324','Woloapo@yahoo.com','woppalo','STD','M');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (18,'Richman','Richard','656-2125-420','riri20@gmail.com','papaman','PREM','M');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (19,'Smith','Serena','675-021-269','sesmith@gmail.com','idolo20','PREM','F');
-
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (20,'Putellas','Diana','620-778-601','diapute@gmail.com','azerty','PREM','F');
-
 end;
 /
 

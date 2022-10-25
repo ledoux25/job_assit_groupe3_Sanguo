@@ -40,17 +40,17 @@ alter table applicants
 add 
 constraint uique_password unique (password);
 
--- alter table proposers 
--- add 
--- constraint unique_emai unique (email);
+ alter table proposers 
+ add 
+constraint proposers_unique_emai unique (email);
 
--- alter table proposers 
--- add 
--- constraint unique_number unique (phone_number);
+ alter table proposers 
+ add 
+ constraint proposers_unique_number unique (phone_number);
 
--- alter table proposers 
--- add 
--- constraint unique_password unique (password);
+ alter table proposers 
+ add 
+ constraint proposer_unique_password unique (password);
 
 alter table jobs
 add 
@@ -72,7 +72,7 @@ alter table PROPOSERS add constraint  gender_id
  check (gender in 
 ( 'M','F'));
 
-alter table APPLICANTS add constraint  gender_id
+alter table APPLICANTS add constraint  proposer_gender_id
  check (gender in 
 ( 'M','F'));
                 

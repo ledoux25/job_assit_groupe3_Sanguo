@@ -3,3 +3,4 @@ PROMPT INSERTING
 @@locations
 @@level
 @@proposer
+@@applicants
