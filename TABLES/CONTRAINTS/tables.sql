@@ -64,7 +64,7 @@ CREATE TABLE OFFERS(
     applicant_id integer,
     location_id VARCHAR(5),
     job_id VARCHAR(5),
-    statut varchar(10 char) not null
+    status varchar(10 char) not null
 );
 PROMPT Creating table LOCATIONS
 CREATE TABLE LOCATIONS

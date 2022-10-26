@@ -67,6 +67,10 @@ constraint unique_city unique (city);
 alter table APPLICANTS add constraint  work_status
  check (status in 
 ( 'OCCUPE','LIBRE'));
+
+alter table OFFERS add constraint  offer_status
+ check (status in 
+( 'OVERTE','FERMER'));
                 
 alter table PROPOSERS add constraint  gender_id
  check (gender in 

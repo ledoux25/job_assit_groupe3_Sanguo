@@ -4,3 +4,4 @@ PROMPT INSERTING
 @@level
 @@proposer
 @@applicants
+@@offers
