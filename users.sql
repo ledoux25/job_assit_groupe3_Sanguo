@@ -3,7 +3,6 @@ set verify off
 grant create session, 
       create table, 
       create sequence, 
-      create view, 
       create procedure,
       create user
   to ja
