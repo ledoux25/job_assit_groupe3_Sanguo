@@ -16,7 +16,7 @@ INSERT INTO jobs(job_id ,job_title)VALUES('TAILL','tailleur');--2
 INSERT INTO jobs(job_id ,job_title)VALUES('DECOR','decoration');--3
 INSERT INTO jobs(job_id ,job_title)VALUES('SERVE','service traiteur');--4
 INSERT INTO jobs(job_id ,job_title)VALUES('FROID','froid et climatisation');--2
-INSERT INTO jobs(job_id ,job_title)VALUES('CHAUF','chauffuer');--2
+INSERT INTO jobs(job_id ,job_title)VALUES('CHAUF','chauffeur');--2
 INSERT INTO jobs(job_id ,job_title)VALUES('SECUR','securité');--3
 end;
 /
