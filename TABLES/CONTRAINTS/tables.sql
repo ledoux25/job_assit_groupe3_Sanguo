@@ -11,8 +11,6 @@ PROMPT Deleting existing JOB_HISTORIES
 DROP TABLE JOB_HISTORIES cascade constraints;
 PROMPT Deleting existing OFFERS
 DROP TABLE OFFERS cascade constraints;
-PROMPT deleting existing SOUSCRIPTIONS
-DROP TABLE SOUSCRIPTIONS cascade constraints;
 PROMPT deleting existing SECTOR
 DROP TABLE SECTOR cascade constraints;
 
