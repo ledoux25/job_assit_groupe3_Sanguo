@@ -1,0 +1,140 @@
+deleting user
+drop user ja
+          *
+ERREUR à la ligne 1 :
+ORA-01918: l'utilisateur 'JA' n'existe pas 
+
+
+creating user
+
+Autorisation de privilèges (GRANT) acceptée.
+
+
+Utilisateur modifié.
+
+
+Utilisateur modifié.
+
+ERROR:
+ORA-01017: nom utilisateur/mot de passe non valide ; connexion refusée 
+
+
+Avertissement : vous n'êtes plus connecté à ORACLE.
+DEleting existing tables
+Deleting existing APPLICANTS
+SP2-0640: Non connecté
+Deleting existing PROPOSERS
+SP2-0640: Non connecté
+Deleting existing LOCATIONS
+SP2-0640: Non connecté
+Deleting existing JOBS
+SP2-0640: Non connecté
+Deleting existing JOB_HISTORIES
+SP2-0640: Non connecté
+Deleting existing OFFERS
+SP2-0640: Non connecté
+deleting existing Level
+SP2-0640: Non connecté
+Creating table APPLICANTS
+SP2-0640: Non connecté
+Creating table PROPOSER
+SP2-0640: Non connecté
+Creating table JOB_HISTORIES
+SP2-0640: Non connecté
+Creating table JOBS
+SP2-0640: Non connecté
+Creating table OFFERS
+SP2-0640: Non connecté
+Creating table LOCATIONS
+SP2-0640: Non connecté
+Creating table Level
+SP2-0640: Non connecté
+creating comments offers by kanteu maxime
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+creating comments locations by kanteu maxime
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+creating comments proposer by kanteu maxime
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+creating comments jobs by malonju
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+creating comments applicant by malonju
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+creating comments job_histories by malonju
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+creating comments LEVELS by malonju
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+creating constraint
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+Creatig PRIMARY KEYS
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+Creating foreignKeys
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+INSERTING
+INSERTING into JOBS
+SP2-0640: Non connecté
+INSERTING into LOCATIONS
+SP2-0640: Non connecté
+INSERTING into LEVEL
+SP2-0640: Non connecté
+INSERTING PROPOSERS
+SP2-0640: Non connecté
+INSERTING APPLICANTS
+SP2-0640: Non connecté
+INSERTING INTO OFFERS
+SP2-0640: Non connecté
+"-----------------------------------------------------MADE BY-----------------------------------------"
+"-----------------------------------------------------SANGUO-----------------------------------------"
+"-----------------------------------------------------TOKO-------------------------------------------"
+"-----------------------------------------------------CHIEMO-----------------------------------------"
+"-----------------------------------------------------KANTEU-----------------------------------------"
+"-----------------------------------------------------MALONJU-----------------------------------------"

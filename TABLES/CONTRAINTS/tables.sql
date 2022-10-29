@@ -75,10 +75,11 @@ CREATE TABLE LOCATIONS
 );
 
 
-PROMPT Creating table Level
-CREATE TABLE levels
+PROMPT Creating table SOUSCRIPTIONS
+CREATE TABLE SOUSCRIPTIONS
 (
-    Level_id VARCHAR(5),
+    souscription_id VARCHAR(5),
     label varchar(70) NOT NULL,
-    Price number(10,2)
+    Price number(10,2),
+    duration varchar(10)
 );
