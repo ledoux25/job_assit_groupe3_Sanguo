@@ -1,9 +1,6 @@
 deleting user
-drop user ja
-          *
-ERREUR à la ligne 1 :
-ORA-01918: l'utilisateur 'JA' n'existe pas 
 
+Utilisateur supprimé.
 
 creating user
 
@@ -15,123 +12,342 @@ Utilisateur modifié.
 
 Utilisateur modifié.
 
-ERROR:
-ORA-01017: nom utilisateur/mot de passe non valide ; connexion refusée 
-
-
-Avertissement : vous n'êtes plus connecté à ORACLE.
+Connecté.
 DEleting existing tables
 Deleting existing APPLICANTS
-SP2-0640: Non connecté
+DROP TABLE APPLICANTS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
 Deleting existing PROPOSERS
-SP2-0640: Non connecté
+DROP TABLE PROPOSERS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
 Deleting existing LOCATIONS
-SP2-0640: Non connecté
+DROP TABLE LOCATIONS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
 Deleting existing JOBS
-SP2-0640: Non connecté
+DROP TABLE JOBS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
 Deleting existing JOB_HISTORIES
-SP2-0640: Non connecté
+DROP TABLE JOB_HISTORIES cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
 Deleting existing OFFERS
-SP2-0640: Non connecté
-deleting existing Level
-SP2-0640: Non connecté
+DROP TABLE OFFERS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+deleting existing SOUSCRIPTIONS
+DROP TABLE SOUSCRIPTIONS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+deleting existing NOTIFICATIONS
+DROP TABLE NOTIFICATIONS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
 Creating table APPLICANTS
-SP2-0640: Non connecté
+
+Table créée.
+
 Creating table PROPOSER
-SP2-0640: Non connecté
+
+Table créée.
+
 Creating table JOB_HISTORIES
-SP2-0640: Non connecté
+
+Table créée.
+
 Creating table JOBS
-SP2-0640: Non connecté
+
+Table créée.
+
 Creating table OFFERS
-SP2-0640: Non connecté
+
+Table créée.
+
 Creating table LOCATIONS
-SP2-0640: Non connecté
-Creating table Level
-SP2-0640: Non connecté
+
+Table créée.
+
+Creating table SOUSCRIPTIONS
+
+Table créée.
+
+Creating table
+CREATE TABLE SOUSCRIPTIONS
+             *
+ERREUR à la ligne 1 :
+ORA-00955: ce nom d'objet existe déjà 
+
+
+Creating table NOTIFICATIONS
+
+Table créée.
+
 creating comments offers by kanteu maxime
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+comment on column offers.statut
+                         *
+ERREUR à la ligne 1 :
+ORA-00904: "STATUT" : identificateur non valide 
+
+
 creating comments locations by kanteu maxime
-SP2-0640: Non connecté
-SP2-0640: Non connecté
+
+Commentaire créé.
+
+
+Commentaire créé.
+
 creating comments proposer by kanteu maxime
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
 creating comments jobs by malonju
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
 creating comments applicant by malonju
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
 creating comments job_histories by malonju
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
 creating comments LEVELS by malonju
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
+comment on TABLE levels
+                 *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column levels.label
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column levels.price
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column levels.level_id
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
 creating constraint
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+alter table LEVELS
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
 Creatig PRIMARY KEYS
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+ALTER TABLE LEVELS
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
 Creating foreignKeys
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
+
+Table modifiée.
+
+REFERENCES LEVELS (level_id)
+           *
+ERREUR à la ligne 4 :
+ORA-00942: Table ou vue inexistante 
+
+
+REFERENCES LEVELS (level_id)
+           *
+ERREUR à la ligne 4 :
+ORA-00942: Table ou vue inexistante 
+
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
 INSERTING
 INSERTING into JOBS
-SP2-0640: Non connecté
-INSERTING into LOCATIONS
-SP2-0640: Non connecté
-INSERTING into LEVEL
-SP2-0640: Non connecté
+
+Procédure PL/SQL terminée avec succès.
+
+INSERTING into JOBS
+
+Procédure PL/SQL terminée avec succès.
+
+SP2-0310: impossible d'ouvrir le fichier "TABLES\level.sql"
 INSERTING PROPOSERS
-SP2-0640: Non connecté
+
+Procédure PL/SQL terminée avec succès.
+
 INSERTING APPLICANTS
-SP2-0640: Non connecté
+
+Procédure PL/SQL terminée avec succès.
+
 INSERTING INTO OFFERS
-SP2-0640: Non connecté
+
+Procédure PL/SQL terminée avec succès.
+
 "-----------------------------------------------------MADE BY-----------------------------------------"
 "-----------------------------------------------------SANGUO-----------------------------------------"
 "-----------------------------------------------------TOKO-------------------------------------------"
