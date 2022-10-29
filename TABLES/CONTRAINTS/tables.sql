@@ -93,3 +93,18 @@ CREATE TABLE SECTOR
     sector_id  varchar (5)
     label varchar(40) NOT NULL,
 );
+PROMPT Creating table 
+CREATE TABLE SOUSCRIPTIONS
+(
+    souscription_id VARCHAR(5),
+    label varchar(70) NOT NULL,
+    Price number(10,2),
+    duration varchar(10)
+);
+PROMPT Creating table NOTIFICATIONS
+CREATE TABLE NOTIFICATIONS
+(
+    notification_id VARCHAR(5),
+    publication_date varchar(10)
+);
+
