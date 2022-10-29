@@ -70,7 +70,7 @@ alter table APPLICANTS add constraint  work_status
 
 alter table OFFERS add constraint  offer_status
  check (status in 
-( 'OVERTE','FERMER'));
+( 'OUVERTE','FERMER'));
                 
 alter table PROPOSERS add constraint  gender_id
  check (gender in 
