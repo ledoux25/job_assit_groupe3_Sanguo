@@ -11,8 +11,11 @@ PROMPT Deleting existing JOB_HISTORIES
 DROP TABLE JOB_HISTORIES cascade constraints;
 PROMPT Deleting existing OFFERS
 DROP TABLE OFFERS cascade constraints;
-PROMPT deleting existing Level
-DROP TABLE LEVELS cascade constraints;
+PROMPT deleting existing SOUSCRIPTIONS
+DROP TABLE SOUSCRIPTIONS cascade constraints;
+PROMPT deleting existing SECTOR
+DROP TABLE SECTOR cascade constraints;
+
 
 PROMPT Creating table APPLICANTS
 CREATE TABLE APPLICANTS(
@@ -82,4 +85,11 @@ CREATE TABLE SOUSCRIPTIONS
     label varchar(70) NOT NULL,
     Price number(10,2),
     duration varchar(10)
+);
+
+PROMPT Creating table SECTOR
+CREATE TABLE SECTOR
+(
+    sector_id  varchar (5)
+    label varchar(40) NOT NULL,
 );
