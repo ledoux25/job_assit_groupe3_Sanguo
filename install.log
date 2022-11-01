@@ -1,9 +1,6 @@
 deleting user
-drop user ja
-          *
-ERREUR à la ligne 1 :
-ORA-01918: l'utilisateur 'JA' n'existe pas 
 
+Utilisateur supprimé.
 
 creating user
 
@@ -15,123 +12,243 @@ Utilisateur modifié.
 
 Utilisateur modifié.
 
-ERROR:
-ORA-01017: nom utilisateur/mot de passe non valide ; connexion refusée 
-
-
-Avertissement : vous n'êtes plus connecté à ORACLE.
+Connecté.
 DEleting existing tables
 Deleting existing APPLICANTS
-SP2-0640: Non connecté
+DROP TABLE APPLICANTS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
 Deleting existing PROPOSERS
-SP2-0640: Non connecté
+DROP TABLE PROPOSERS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
 Deleting existing LOCATIONS
-SP2-0640: Non connecté
+DROP TABLE LOCATIONS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
 Deleting existing JOBS
-SP2-0640: Non connecté
+DROP TABLE JOBS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
 Deleting existing JOB_HISTORIES
-SP2-0640: Non connecté
+DROP TABLE JOB_HISTORIES cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
 Deleting existing OFFERS
-SP2-0640: Non connecté
-deleting existing Level
-SP2-0640: Non connecté
-Creating table APPLICANTS
-SP2-0640: Non connecté
-Creating table PROPOSER
-SP2-0640: Non connecté
-Creating table JOB_HISTORIES
-SP2-0640: Non connecté
-Creating table JOBS
-SP2-0640: Non connecté
-Creating table OFFERS
-SP2-0640: Non connecté
-Creating table LOCATIONS
-SP2-0640: Non connecté
-Creating table Level
-SP2-0640: Non connecté
-creating comments offers by kanteu maxime
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-creating comments locations by kanteu maxime
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-creating comments proposer by kanteu maxime
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-creating comments jobs by malonju
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-creating comments applicant by malonju
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-creating comments job_histories by malonju
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-creating comments LEVELS by malonju
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-creating constraint
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-Creatig PRIMARY KEYS
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-Creating foreignKeys
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-INSERTING
+DROP TABLE OFFERS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+<<<<<<< HEAD
+  *
+ERREUR à la ligne 1 :
+ORA-06550: Ligne 1, colonne 3 : 
+PLS-00103: Symbole "<" rencontré à la place d'un des symboles suivants : 
+<identificateur> <identificateur entre guillemets> 
+
+
 INSERTING into JOBS
-SP2-0640: Non connecté
-INSERTING into LOCATIONS
-SP2-0640: Non connecté
-INSERTING into LEVEL
-SP2-0640: Non connecté
+insert into LOCATIONS(location_id,city) VALUES ('DOUL','DOUALA');--10
+            *
+ERREUR à la ligne 2 :
+ORA-06550: Ligne 2, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 2, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 3, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 3, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 4, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 4, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 5, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 5, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 6, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 6, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 7, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 7, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 8, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 8, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 9, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 9, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 10, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 10, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 11, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 11, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+
+
+SP2-0310: impossible d'ouvrir le fichier "TABLES\level.sql"
 INSERTING PROPOSERS
-SP2-0640: Non connecté
+INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (1,'Sanguo','Joseph','690-379-063','sanguojoseph1@gmail.com','SAJO12$','PREM','M');
+            *
+ERREUR à la ligne 2 :
+ORA-06550: Ligne 2, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 2, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 3, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 3, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 4, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 4, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 5, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 5, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 6, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 6, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 7, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 7, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 8, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 8, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 9, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 9, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 10, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 10, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 11, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 11, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+
+
 INSERTING APPLICANTS
-SP2-0640: Non connecté
+INSERT INTO APPLICANTS(applicant_id,first_name,last_name,phone_number,email,password,location_id,status,level_id,gender,job_id) VALUES (1,'Fosto','Victor','620-553-128','victorfosto@gmail.com','fostovic16','DOUL','OCCUPE','DIAM','M','SERVE');
+            *
+ERREUR à la ligne 2 :
+ORA-06550: Ligne 2, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 2, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 3, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 3, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 4, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 4, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 5, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 5, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 6, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 6, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 7, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 7, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 8, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 8, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 9, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 9, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 10, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 10, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 11, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 11, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+
+
 INSERTING INTO OFFERS
-SP2-0640: Non connecté
+INSERT INTO OFFERS(offer_id,publication_date,proposer_id,applicant_id,location_id,job_id,status) VALUES (1,to_timestamp('04-01-2022 15.14.32.678927','DD-MM-YYYY HH24.MI.SS.FF'),4,14,'DOUL','JARDI','FERMER');
+            *
+ERREUR à la ligne 2 :
+ORA-06550: Ligne 2, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 2, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 3, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 3, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 4, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 4, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 5, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 5, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 6, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 6, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 7, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 7, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 8, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 8, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 9, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 9, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 10, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 10, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 11, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 11, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+
+
 "-----------------------------------------------------MADE BY-----------------------------------------"
 "-----------------------------------------------------SANGUO-----------------------------------------"
 "-----------------------------------------------------TOKO-------------------------------------------"
