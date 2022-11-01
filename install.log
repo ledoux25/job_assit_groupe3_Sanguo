@@ -57,6 +57,7 @@ ORA-00942: Table ou vue inexistante
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   *
 ERREUR à la ligne 1 :
 ORA-06550: Ligne 1, colonne 3 : 
@@ -248,6 +249,299 @@ PL/SQL: ORA-00942: Table ou vue inexistante
 ORA-06550: Ligne 11, colonne 1 : 
 PL/SQL: SQL Statement ignored 
 
+=======
+deleting existing SOUSCRIPTIONS
+DROP TABLE SOUSCRIPTIONS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+deleting existing NOTIFICATIONS
+DROP TABLE NOTIFICATIONS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+Creating table APPLICANTS
+
+Table créée.
+
+Creating table PROPOSER
+
+Table créée.
+
+Creating table JOB_HISTORIES
+
+Table créée.
+
+Creating table JOBS
+
+Table créée.
+
+Creating table OFFERS
+
+Table créée.
+
+Creating table LOCATIONS
+
+Table créée.
+
+Creating table SOUSCRIPTIONS
+
+Table créée.
+
+Creating table
+CREATE TABLE SOUSCRIPTIONS
+             *
+ERREUR à la ligne 1 :
+ORA-00955: ce nom d'objet existe déjà 
+
+
+Creating table NOTIFICATIONS
+
+Table créée.
+
+creating comments offers by kanteu maxime
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+comment on column offers.statut
+                         *
+ERREUR à la ligne 1 :
+ORA-00904: "STATUT" : identificateur non valide 
+
+
+creating comments locations by kanteu maxime
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments proposer by kanteu maxime
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments jobs by malonju
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments applicant by malonju
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments job_histories by malonju
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments LEVELS by malonju
+comment on TABLE levels
+                 *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column levels.label
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column levels.price
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column levels.level_id
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+creating constraint
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+alter table LEVELS
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+Creatig PRIMARY KEYS
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+ALTER TABLE LEVELS
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+Creating foreignKeys
+
+Table modifiée.
+
+REFERENCES LEVELS (level_id)
+           *
+ERREUR à la ligne 4 :
+ORA-00942: Table ou vue inexistante 
+
+
+REFERENCES LEVELS (level_id)
+           *
+ERREUR à la ligne 4 :
+ORA-00942: Table ou vue inexistante 
+
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+INSERTING
+INSERTING into JOBS
+
+Procédure PL/SQL terminée avec succès.
+
+INSERTING into JOBS
+
+Procédure PL/SQL terminée avec succès.
+
+SP2-0310: impossible d'ouvrir le fichier "TABLES\level.sql"
+INSERTING PROPOSERS
+
+Procédure PL/SQL terminée avec succès.
+
+INSERTING APPLICANTS
+
+Procédure PL/SQL terminée avec succès.
+
+INSERTING INTO OFFERS
+
+Procédure PL/SQL terminée avec succès.
+>>>>>>> 15942cad780ca8642d0e73110a78a60efe661c61
 
 "-----------------------------------------------------MADE BY-----------------------------------------"
 "-----------------------------------------------------SANGUO-----------------------------------------"
