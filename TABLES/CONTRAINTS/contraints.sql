@@ -21,7 +21,7 @@
 
 -- alter table LEVELS 
 -- drop
--- constraint unique_label;
+-- constraint unique_label
 
 -- alter table locations
 -- drop
@@ -52,13 +52,13 @@ constraint proposers_unique_emai unique (email);
  add 
  constraint proposer_unique_password unique (password);
 
-alter table jobs
+alter table sectors
 add 
-constraint unique_job_title unique (job_title);
+constraint unique_job_title unique (label);
 
-alter table LEVELS 
+alter table SOUSCRIPTIONS 
 add 
-constraint unique_label unique (label);
+constraint unique_souscription_label unique (label);
 
 alter table locations
 add 

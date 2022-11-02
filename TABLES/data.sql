@@ -1,7 +1,7 @@
 PROMPT INSERTING
-@@jobs
+@@sectors
 @@locations
-@@level
+@@SOUSCRIPTIONS
 @@proposer
 @@applicants
 @@offers

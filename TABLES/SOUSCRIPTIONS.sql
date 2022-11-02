@@ -6,3 +6,4 @@ insert into  SOUSCRIPTIONS(souscription_id,label,price,duration) VALUES ('STAN',
 insert into  SOUSCRIPTIONS(souscription_id,label,price,duration) VALUES ('PREM','PREMIUM',25000,'4 Mois');
 insert into  SOUSCRIPTIONS(souscription_id,label,price,duration) VALUES ('DIAM','DIAMANT',50000,'3 Ans');
 end;
+/

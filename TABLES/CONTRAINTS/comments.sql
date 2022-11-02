@@ -9,7 +9,7 @@ is ' Auto_incrementing primary key of offers';
 comment on column offers.publication_date
 is 'the date of the publication of the offer ';
 
-comment on column offers.statut
+comment on column offers.status
 is 'the set of texts that resolve the situation of the offers';
 
 
@@ -52,13 +52,13 @@ is 'to determine the sex of the offer';
 
 
 PROMPT creating comments jobs by malonju
-comment on table jobs
-is 'Differrent jobs avaible';
+comment on table sectors
+is 'Differrent sectors avaible';
 
-comment on column jobs. job_id
+comment on column sectors. sector_id
 is 'Auto-incrementing primary key';
 
-comment on column jobs. job_title
+comment on column sectors. label
 is 'The name of a job';
 
 
@@ -69,6 +69,12 @@ is 'detail or information on an applicant ';
 
 comment on column applicants.applicant_id 
 is 'Auto-incrementing primary key';
+
+comment on column jobs_done.notation
+is 'the note at the end of an offer';
+
+comment on column jobs_done.comments
+is 'comment made at th end of the offer';
 
 comment on column  applicants.first_name 
 is ' the name of the applicant';
@@ -89,26 +95,29 @@ comment on column applicants.status
 is 'to if te applicant is free or occupied';
 
 
-PROMPT creating comments job_histories by malonju
+PROMPT creating comments job_done by malonju
 
-comment on  table job_histories
+comment on  table jobs_done
 is 'for ressence the previous works of applicant ';
 
-comment on column job_histories.job_history_id
+comment on column jobs_done.job_done_id
 is 'Auto-incrementing primary key';
 
-comment on column job_histories.start_date
+comment on column jobs_done.start_date
 is 'the beginning of previous/actual job';
 
-comment on column job_histories.end_date
+comment on column jobs_done.end_date
 is 'the end of the previous job';
 
-PROMPT creating comments LEVELS by malonju
-comment on TABLE levels
+PROMPT creating comments SOUSCRIPTIONS by malonju
+comment on TABLE SOUSCRIPTIONS
 is 'the level pf advantages of an user';
-comment on column levels.label
-is 'the label of the level';
-comment on column levels.price
-is 'the price of a level';
-comment on column levels.level_id
+comment on column SOUSCRIPTIONS.label
+is 'the label of the subcscription';
+comment on column SOUSCRIPTIONS.price
+is 'the price of a subscription';
+comment on column SOUSCRIPTIONS.souscription_id
 is 'Auto-incrementing primary key';
+
+comment on column SOUSCRIPTIONS.duration
+is 'How long those the subscription last';

@@ -15,11 +15,8 @@ Utilisateur modifié.
 Connecté.
 DEleting existing tables
 Deleting existing APPLICANTS
-DROP TABLE APPLICANTS cascade constraints
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
 
+Table supprimée.
 
 Deleting existing PROPOSERS
 DROP TABLE PROPOSERS cascade constraints
@@ -29,294 +26,100 @@ ORA-00942: Table ou vue inexistante
 
 
 Deleting existing LOCATIONS
-DROP TABLE LOCATIONS cascade constraints
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
 
+Table supprimée.
 
-Deleting existing JOBS
-DROP TABLE JOBS cascade constraints
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
+Deleting existing JOB_DONE
 
-
-Deleting existing JOB_HISTORIES
-DROP TABLE JOB_HISTORIES cascade constraints
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
-
+Table supprimée.
 
 Deleting existing OFFERS
-DROP TABLE OFFERS cascade constraints
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
 
+Table supprimée.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  *
-ERREUR à la ligne 1 :
-ORA-06550: Ligne 1, colonne 3 : 
-PLS-00103: Symbole "<" rencontré à la place d'un des symboles suivants : 
-<identificateur> <identificateur entre guillemets> 
+deleting existing SECTOR
 
+Table supprimée.
 
-INSERTING into JOBS
-insert into LOCATIONS(location_id,city) VALUES ('DOUL','DOUALA');--10
-            *
-ERREUR à la ligne 2 :
-ORA-06550: Ligne 2, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 2, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 3, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 3, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 4, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 4, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 5, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 5, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 6, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 6, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 7, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 7, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 8, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 8, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 9, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 9, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 10, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 10, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 11, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 11, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-
-
-SP2-0310: impossible d'ouvrir le fichier "TABLES\level.sql"
-INSERTING PROPOSERS
-INSERT INTO PROPOSERS(proposer_id,first_name,last_name,phone_number,email,password,level_id,gender) VALUES (1,'Sanguo','Joseph','690-379-063','sanguojoseph1@gmail.com','SAJO12$','PREM','M');
-            *
-ERREUR à la ligne 2 :
-ORA-06550: Ligne 2, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 2, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 3, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 3, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 4, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 4, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 5, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 5, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 6, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 6, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 7, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 7, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 8, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 8, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 9, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 9, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 10, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 10, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 11, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 11, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-
-
-INSERTING APPLICANTS
-INSERT INTO APPLICANTS(applicant_id,first_name,last_name,phone_number,email,password,location_id,status,level_id,gender,job_id) VALUES (1,'Fosto','Victor','620-553-128','victorfosto@gmail.com','fostovic16','DOUL','OCCUPE','DIAM','M','SERVE');
-            *
-ERREUR à la ligne 2 :
-ORA-06550: Ligne 2, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 2, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 3, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 3, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 4, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 4, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 5, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 5, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 6, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 6, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 7, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 7, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 8, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 8, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 9, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 9, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 10, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 10, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 11, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 11, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-
-
-INSERTING INTO OFFERS
-INSERT INTO OFFERS(offer_id,publication_date,proposer_id,applicant_id,location_id,job_id,status) VALUES (1,to_timestamp('04-01-2022 15.14.32.678927','DD-MM-YYYY HH24.MI.SS.FF'),4,14,'DOUL','JARDI','FERMER');
-            *
-ERREUR à la ligne 2 :
-ORA-06550: Ligne 2, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 2, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 3, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 3, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 4, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 4, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 5, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 5, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 6, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 6, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 7, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 7, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 8, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 8, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 9, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 9, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 10, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 10, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 11, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 11, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-
-=======
 deleting existing SOUSCRIPTIONS
-DROP TABLE SOUSCRIPTIONS cascade constraints
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
 
-
-deleting existing NOTIFICATIONS
-DROP TABLE NOTIFICATIONS cascade constraints
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
-
+Table supprimée.
 
 Creating table APPLICANTS
+CREATE sequence app_seq START WITH 1
+                *
+ERREUR à la ligne 1 :
+ORA-00955: ce nom d'objet existe déjà 
+
+
 
 Table créée.
 
 Creating table PROPOSER
+    CREATE sequence prop_seq START_WITH 1
+                             *
+ERREUR à la ligne 1 :
+ORA-00933: la commande SQL ne se termine pas correctement 
 
-Table créée.
 
-Creating table JOB_HISTORIES
+    proposer_id integer DEFAULT prop_seq.NEXTVAL NOT NULL,
+                                *
+ERREUR à la ligne 2 :
+ORA-02289: la séquence n'existe pas 
 
-Table créée.
 
-Creating table JOBS
+Creating table JOBS_DONE
 
 Table créée.
 
 Creating table OFFERS
+CREATE sequence offer_seq START_WITH 1
+                          *
+ERREUR à la ligne 1 :
+ORA-00933: la commande SQL ne se termine pas correctement 
 
-Table créée.
+
+    offer_id integer DEFAULT offer_seq.NEXTVAL NOT NULL,
+                             *
+ERREUR à la ligne 2 :
+ORA-02289: la séquence n'existe pas 
+
 
 Creating table LOCATIONS
 
 Table créée.
 
-Creating table SOUSCRIPTIONS
+Creating table SECTOR
 
 Table créée.
 
 Creating table
-CREATE TABLE SOUSCRIPTIONS
-             *
-ERREUR à la ligne 1 :
-ORA-00955: ce nom d'objet existe déjà 
-
-
-Creating table NOTIFICATIONS
 
 Table créée.
 
 creating comments offers by kanteu maxime
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-comment on column offers.statut
-                         *
+comment on table offers
+                 *
 ERREUR à la ligne 1 :
-ORA-00904: "STATUT" : identificateur non valide 
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column offers.offer_id
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column offers.publication_date
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column offers.status
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
 creating comments locations by kanteu maxime
@@ -327,26 +130,47 @@ Commentaire créé.
 Commentaire créé.
 
 creating comments proposer by kanteu maxime
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
+Comment on table PROPOSERS
+                 *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Commentaire créé.
+comment on column PROPOSERS.proposer_id
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Commentaire créé.
+comment on column  PROPOSERS.first_name
+                   *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Commentaire créé.
+comment on column  PROPOSERS.last_name
+                   *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Commentaire créé.
+comment on column PROPOSERS.phone_number
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column PROPOSERS.email
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column PROPOSERS.gender
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
 
 creating comments jobs by malonju
 
@@ -383,7 +207,13 @@ Commentaire créé.
 
 Commentaire créé.
 
-creating comments job_histories by malonju
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments job_done by malonju
 
 Commentaire créé.
 
@@ -396,30 +226,21 @@ Commentaire créé.
 
 Commentaire créé.
 
-creating comments LEVELS by malonju
-comment on TABLE levels
-                 *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
+creating comments SOUSCRIPTIONS by malonju
+
+Commentaire créé.
 
 
-comment on column levels.label
-                  *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
+Commentaire créé.
 
 
-comment on column levels.price
-                  *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
+Commentaire créé.
 
 
-comment on column levels.level_id
-                  *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
+Commentaire créé.
 
+
+Commentaire créé.
 
 creating constraint
 
@@ -431,19 +252,19 @@ Table modifiée.
 
 Table modifiée.
 
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
+ alter table proposers
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Table modifiée.
+ alter table proposers
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
-alter table LEVELS
+
+ alter table proposers
 *
 ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante 
@@ -460,6 +281,18 @@ Table modifiée.
 
 
 Table modifiée.
+
+alter table OFFERS add constraint  offer_status
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+alter table PROPOSERS add constraint  gender_id
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
 
 
 Table modifiée.
@@ -468,60 +301,72 @@ Creatig PRIMARY KEYS
 
 Table modifiée.
 
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-ALTER TABLE LEVELS
+ALTER TABLE proposers
 *
 ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+ALTER TABLE OFFERS
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+
+Table modifiée.
+
 Creating foreignKeys
 
 Table modifiée.
 
-REFERENCES LEVELS (level_id)
+
+Table modifiée.
+
+
+Table modifiée.
+
+ALTER TABLE PROPOSERS
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+ALTER TABLE OFFERS
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+ALTER TABLE OFFERS
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+ALTER TABLE OFFERS
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+REFERENCES offers(offer_id)
            *
 ERREUR à la ligne 4 :
 ORA-00942: Table ou vue inexistante 
 
-
-REFERENCES LEVELS (level_id)
-           *
-ERREUR à la ligne 4 :
-ORA-00942: Table ou vue inexistante 
-
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
 
 INSERTING
-INSERTING into JOBS
+INSERTING into SECTORS
 
 Procédure PL/SQL terminée avec succès.
 
@@ -529,23 +374,51 @@ INSERTING into JOBS
 
 Procédure PL/SQL terminée avec succès.
 
-SP2-0310: impossible d'ouvrir le fichier "TABLES\level.sql"
+INSERTING into SOUSCRIPTIONS
+
+Procédure PL/SQL terminée avec succès.
+
 INSERTING PROPOSERS
+INSERT INTO PROPOSERS(first_name,last_name,phone_number,email,password,souscription_id,gender) VALUES (Sanguo','Joseph','690-379-063','sanguojoseph1@gmail.com','SAJO12$','PREM','M');
+                                                                                                             *
+ERREUR à la ligne 2 :
+ORA-06550: Ligne 2, colonne 110 : 
+PL/SQL: ORA-00917: virgule absente 
+ORA-06550: Ligne 2, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 4, colonne 110 : 
+PL/SQL: ORA-00917: virgule absente 
+ORA-06550: Ligne 4, colonne 1 : 
+PL/SQL: SQL Statement ignored 
 
-Procédure PL/SQL terminée avec succès.
 
 INSERTING APPLICANTS
 
 Procédure PL/SQL terminée avec succès.
 
 INSERTING INTO OFFERS
+ 77  set DEFINE ON
+ 78  begin
+ 79  DELETE FROM  PROPOSERS
+ 80  WHERE label = &sector_name;
+ 81  end;
+ 82  /
+SP2-0552: Variable attachée "SECTOR_NAME" non déclarée.
+SQL> set DEFINE ON
+SQL> begin
+  2  DELETE FROM  SECTORS
+  3  WHERE label = &sector_name;
+  4  end;
+  5  /
+Entrez une valeur pour sector_name : 
+WHERE label = ;
+              *
+ERREUR à la ligne 3 :
+ORA-06550: Ligne 3, colonne 15 : 
+PL/SQL: ORA-00936: expression absente 
+ORA-06550: Ligne 2, colonne 1 : 
+PL/SQL: SQL Statement ignored 
 
-Procédure PL/SQL terminée avec succès.
->>>>>>> 15942cad780ca8642d0e73110a78a60efe661c61
 
-"-----------------------------------------------------MADE BY-----------------------------------------"
-"-----------------------------------------------------SANGUO-----------------------------------------"
-"-----------------------------------------------------TOKO-------------------------------------------"
-"-----------------------------------------------------CHIEMO-----------------------------------------"
-"-----------------------------------------------------KANTEU-----------------------------------------"
-"-----------------------------------------------------MALONJU-----------------------------------------"
+SQL> 
+SQL> exit
