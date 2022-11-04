@@ -1,14 +1,8 @@
 PROMPT Creatig PRIMARY KEYS
 
-ALTER TABLE applicants
+ALTER TABLE offer
 ADD
-CONSTRAINT applicants_applicant_id_pk PRIMARY KEY (applicant_id);
-
-
-ALTER TABLE proposers
-ADD
-CONSTRAINT proposers_proposer_id_pk PRIMARY KEY (proposer_id);
- 
+CONSTRAINT offers_offer_id_pk PRIMARY KEY (offer_id);
 
 ALTER TABLE jobs_done
 ADD
@@ -19,10 +13,9 @@ ALTER TABLE SECTORS
 ADD
 CONSTRAINT jobs_sector_id_pk PRIMARY KEY (sector_id);
 
-
-ALTER TABLE locations
+ALTER TABLE USERS
 ADD
-CONSTRAINT locations_location_id_pk PRIMARY KEY (location_id);
+CONSTRAINT Users_user_id_pk PRIMARY KEY (user_id);
 
 ALTER TABLE OFFERS
 ADD
