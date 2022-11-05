@@ -1,253 +1,253 @@
 deleting user
 
-Utilisateur supprimé.
+Utilisateur supprimï¿½.
 
 creating user
 
-Autorisation de privilèges (GRANT) acceptée.
+Autorisation de privilï¿½ges (GRANT) acceptï¿½e.
 
 
-Utilisateur modifié.
+Utilisateur modifiï¿½.
 
 
-Utilisateur modifié.
+Utilisateur modifiï¿½.
 
-Connecté.
+Connectï¿½.
 DEleting existing tables
 Deleting existing APPLICANTS
 DROP TABLE APPLICANTS cascade constraints
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
 Deleting existing PROPOSERS
 DROP TABLE PROPOSERS cascade constraints
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
 Deleting existing LOCATIONS
 DROP TABLE LOCATIONS cascade constraints
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
 Deleting existing JOB_DONE
 DROP TABLE JOBS_DONE cascade constraints
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
 Deleting existing OFFERS
 DROP TABLE OFFERS cascade constraints
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
 deleting existing SECTOR
 DROP TABLE SECTORS cascade constraints
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
 deleting existing SOUSCRIPTIONS
 DROP TABLE SOUSCRIPTIONS cascade constraints
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
  DROP sequence app_seq 
                *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas 
 
 
   DROP sequence prop_seq 
                 *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas 
 
 
    DROP sequence offer_seq 
                  *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas 
 
 
 Creating table APPLICANTS
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Creating table PROPOSER
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Creating table JOBS_DONE
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Creating table OFFERS
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Creating table LOCATIONS
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Creating table SECTOR
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Creating table
 
-Table créée.
+Table crï¿½ï¿½e.
 
 SP2-0310: impossible d'ouvrir le fichier "TABLES\CONTRAINTS\comments!!.sql"
 creating constraint
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 Creatig PRIMARY KEYS
 ALTER TABLE offer
 *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 ALTER TABLE USERS
 *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 Creating foreignKeys
 REFERENCES LOCATIONS (location_id)
                       *
-ERREUR à la ligne 4 :
-ORA-02270: pas de correspondance de clé primaire ou unique pour cette liste de 
+ERREUR ï¿½ la ligne 4 :
+ORA-02270: pas de correspondance de clï¿½ primaire ou unique pour cette liste de 
 colonnes 
 
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 REFERENCES PROPOSERS(proposer_id)
                      *
-ERREUR à la ligne 4 :
-ORA-02270: pas de correspondance de clé primaire ou unique pour cette liste de 
+ERREUR ï¿½ la ligne 4 :
+ORA-02270: pas de correspondance de clï¿½ primaire ou unique pour cette liste de 
 colonnes 
 
 
 REFERENCES APPLICANTS(applicant_id)
                       *
-ERREUR à la ligne 4 :
-ORA-02270: pas de correspondance de clé primaire ou unique pour cette liste de 
+ERREUR ï¿½ la ligne 4 :
+ORA-02270: pas de correspondance de clï¿½ primaire ou unique pour cette liste de 
 colonnes 
 
 
 CONSTRAINT offer_id_fk FOREIGN KEY (applicant_id)
                                     *
-ERREUR à la ligne 3 :
+ERREUR ï¿½ la ligne 3 :
 ORA-00904: "APPLICANT_ID" : identificateur non valide 
 
 
 INSERTING
 INSERTING into SECTORS
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 INSERTING into JOBS
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 INSERTING into SOUSCRIPTIONS
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 INSERTING PROPOSERS
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 INSERTING APPLICANTS
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 INSERTING INTO OFFERS
 
-Procédure PL/SQL terminée avec succès.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 "-----------------------------------------------------MADE BY-----------------------------------------"
 "-----------------------------------------------------SANGUO-----------------------------------------"

@@ -55,6 +55,7 @@ CREATE TABLE APPLICANTS(
     PROMPT Creating table PROPOSER
     CREATE sequence prop_seq START WITH 1;
 CREATE TABLE PROPOSERS(
+    CREATE TABLE PROPOSERS(
     proposer_id integer DEFAULT prop_seq.NEXTVAL NOT NULL,
     first_name VARCHAR(20) not null,
     last_name VARCHAR(20)not null,
@@ -87,7 +88,9 @@ CREATE TABLE OFFERS(
     sector_id VARCHAR(5),
     status varchar(10 char) not null,
     death_line DATE
+    salaire float (80)not null
 );
+
 PROMPT Creating table LOCATIONS
 CREATE TABLE LOCATIONS
 (

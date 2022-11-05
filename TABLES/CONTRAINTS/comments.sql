@@ -1,3 +1,4 @@
+
 PROMPT creating comments offers by kanteu maxime
 
 comment on table offers
@@ -131,10 +132,10 @@ comment on column JOBS_DONE.notation
 is'gives us the notation of jobs_done';
 comment on column JOBS_DONE. start_date
 is'gives us details on the beginning of the last job';
-comments on column JOBS_DONE.end_date
+comment on column JOBS_DONE.end_date
 is'gives us details on the end of the last job';
-comments on column JOBS_DONE.comments
+comment on column JOBS_DONE.comments
 is'give us a litle comment of user last jobs';
-comments on column JOBS_DONE.offer_id
+comment on column JOBS_DONE.offer_id
 is 'the Auto-incrementing forein key of offers table ';
 

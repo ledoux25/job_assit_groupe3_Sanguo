@@ -1,6 +1,21 @@
 PROMPT Creatig PRIMARY KEYS
 
-ALTER TABLE offer
+
+ALTER TABLE PROPOSERS
+ADD
+CONSTRAINT proposers_proposer_id_pk PRIMARY KEY (proposer_id);
+
+
+ALTER TABLE APPLICANTS
+ADD
+CONSTRAINT applicants_applicant_id_pk PRIMARY KEY (applicant_id);
+
+
+ALTER TABLE LOCATIONS
+ADD
+CONSTRAINT locations_location_id_pk PRIMARY KEY (location_id);
+
+ALTER TABLE offers
 ADD
 CONSTRAINT offers_offer_id_pk PRIMARY KEY (offer_id);
 
