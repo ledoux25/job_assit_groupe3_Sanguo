@@ -1,253 +1,335 @@
-deleting user
-
-Utilisateur supprimï¿½.
-
-creating user
-
-Autorisation de privilï¿½ges (GRANT) acceptï¿½e.
-
-
-Utilisateur modifiï¿½.
-
-
-Utilisateur modifiï¿½.
-
-Connectï¿½.
 DEleting existing tables
 Deleting existing APPLICANTS
-DROP TABLE APPLICANTS cascade constraints
-           *
-ERREUR ï¿½ la ligne 1 :
-ORA-00942: Table ou vue inexistante 
 
+Table supprimée.
 
 Deleting existing PROPOSERS
-DROP TABLE PROPOSERS cascade constraints
-           *
-ERREUR ï¿½ la ligne 1 :
-ORA-00942: Table ou vue inexistante 
 
+Table supprimée.
 
 Deleting existing LOCATIONS
-DROP TABLE LOCATIONS cascade constraints
-           *
-ERREUR ï¿½ la ligne 1 :
-ORA-00942: Table ou vue inexistante 
 
+Table supprimée.
 
 Deleting existing JOB_DONE
-DROP TABLE JOBS_DONE cascade constraints
-           *
-ERREUR ï¿½ la ligne 1 :
-ORA-00942: Table ou vue inexistante 
 
+Table supprimée.
 
 Deleting existing OFFERS
-DROP TABLE OFFERS cascade constraints
-           *
-ERREUR ï¿½ la ligne 1 :
-ORA-00942: Table ou vue inexistante 
 
+Table supprimée.
 
 deleting existing SECTOR
 DROP TABLE SECTORS cascade constraints
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
 deleting existing SOUSCRIPTIONS
 DROP TABLE SOUSCRIPTIONS cascade constraints
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
- DROP sequence app_seq 
-               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas 
 
+Séquence supprimée.
 
   DROP sequence prop_seq 
                 *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas 
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
 
 
    DROP sequence offer_seq 
                  *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas 
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
 
 
 Creating table APPLICANTS
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Creating table PROPOSER
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Creating table JOBS_DONE
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Creating table OFFERS
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Creating table LOCATIONS
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Creating table SECTOR
 
-Table crï¿½ï¿½e.
+Table créée.
 
 Creating table
 
-Table crï¿½ï¿½e.
+Table créée.
 
-SP2-0310: impossible d'ouvrir le fichier "TABLES\CONTRAINTS\comments!!.sql"
+creating comments offers by kanteu maxime
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments locations by kanteu maxime
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments proposer by kanteu maxime
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments jobs by malonju
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments applicant by malonju
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments job_done by malonju
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments SOUSCRIPTIONS by malonju
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments JOBS_DONE by kanteu
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
 creating constraint
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 Creatig PRIMARY KEYS
-ALTER TABLE offer
-*
-ERREUR ï¿½ la ligne 1 :
-ORA-00942: Table ou vue inexistante 
+
+Table modifiée.
 
 
-
-Table modifiï¿½e.
-
-
-Table modifiï¿½e.
-
-ALTER TABLE USERS
-*
-ERREUR ï¿½ la ligne 1 :
-ORA-00942: Table ou vue inexistante 
+Table modifiée.
 
 
+Table modifiée.
 
-Table modifiï¿½e.
+
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
 
 Creating foreignKeys
-REFERENCES LOCATIONS (location_id)
-                      *
-ERREUR ï¿½ la ligne 4 :
-ORA-02270: pas de correspondance de clï¿½ primaire ou unique pour cette liste de 
-colonnes 
+
+Table modifiée.
 
 
-
-Table modifiï¿½e.
-
-
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
-
-REFERENCES PROPOSERS(proposer_id)
-                     *
-ERREUR ï¿½ la ligne 4 :
-ORA-02270: pas de correspondance de clï¿½ primaire ou unique pour cette liste de 
-colonnes 
+Table modifiée.
 
 
-REFERENCES APPLICANTS(applicant_id)
-                      *
-ERREUR ï¿½ la ligne 4 :
-ORA-02270: pas de correspondance de clï¿½ primaire ou unique pour cette liste de 
-colonnes 
+Table modifiée.
 
 
-CONSTRAINT offer_id_fk FOREIGN KEY (applicant_id)
-                                    *
-ERREUR ï¿½ la ligne 3 :
-ORA-00904: "APPLICANT_ID" : identificateur non valide 
+Table modifiée.
 
+
+Table modifiée.
+
+
+Table modifiée.
 
 INSERTING
 INSERTING into SECTORS
 
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+Procédure PL/SQL terminée avec succès.
 
 INSERTING into JOBS
 
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+Procédure PL/SQL terminée avec succès.
 
 INSERTING into SOUSCRIPTIONS
 
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+Procédure PL/SQL terminée avec succès.
 
 INSERTING PROPOSERS
 
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+Procédure PL/SQL terminée avec succès.
 
 INSERTING APPLICANTS
 
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+Procédure PL/SQL terminée avec succès.
 
 INSERTING INTO OFFERS
 
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+Procédure PL/SQL terminée avec succès.
 
 "-----------------------------------------------------MADE BY-----------------------------------------"
 "-----------------------------------------------------SANGUO-----------------------------------------"
