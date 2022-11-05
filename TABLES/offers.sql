@@ -1,7 +1,7 @@
 SET DEFINE OFF
 PROMPT INSERTING INTO OFFERS
 begin
-INSERT INTO OFFERS(publication_date,proposer_id,applicant_id,location_id,sector_id,status) VALUES ('04/01/2022',4,14,'DOUL','JARDI','FERMER');
+INSERT INTO OFFERS(publication_date, proposer_id, applicant_id, location_id, sector_id,status) VALUES ('04/01/2022',4,14,'DOUL','JARDI','FERMER');
 INSERT INTO OFFERS(publication_date, proposer_id, applicant_id, location_id, sector_id, status) VALUES ('16/01/2022', 16, 29, 'DOUL', 'ELEC', 'FERMER');
 INSERT INTO OFFERS(publication_date, proposer_id, applicant_id, location_id, sector_id, status) VALUES ('30/01/2022', 1, 20, 'BAFF', 'CHAUF', 'FERMER');
 INSERT INTO OFFERS(publication_date, proposer_id, applicant_id, location_id, sector_id, status) VALUES ('04/02/2022', 25, 18, 'YAOU', 'ELEC', 'FERMER');
@@ -31,7 +31,7 @@ INSERT INTO OFFERS(publication_date, proposer_id, applicant_id, location_id, sec
 INSERT INTO OFFERS(publication_date, proposer_id, applicant_id, location_id, sector_id, status) VALUES ('22/04/2022', 15,33, 'LIMB', 'SECUR','FERMER');
 INSERT INTO OFFERS(publication_date, proposer_id, applicant_id, location_id, sector_id, status) VALUES ('27/04/2022', 14, 38, 'BAGA', 'SECUR','FERMER');
 INSERT INTO OFFERS(publication_date, proposer_id, applicant_id, location_id, sector_id, status) VALUES ('30/04/2022', 18, 41, 'DOUL', 'MACON','FERMER');
-INSERT INTO OFFERS(publication_date,proposer_id,applicant_id,location_id,sector_id,status) VALUES ('02-04-2022',18,14,'DOUL','JARDI','FERMER');
+INSERT INTO OFFERS(publication_date,proposer_id, applicant_id,  location_id, sector_id, status) VALUES ('02-04-2022',18,14,'DOUL','JARDI','FERMER');
 INSERT INTO OFFERS(publication_date, proposer_id, applicant_id, location_id, sector_id, status) VALUES ('05/04/2022', 16, 1, 'DOUL', 'SERVE', 'FERMER');
 INSERT INTO OFFERS(publication_date, proposer_id, applicant_id, location_id, sector_id, status) VALUES ('08/04/2022', 2, 1, 'DOUL', 'SERVE', 'FERMER');
 INSERT INTO OFFERS(publication_date, proposer_id, applicant_id, location_id, sector_id, status) VALUES ('14/04/2022', 25, 18, 'YAOU', 'ELEC', 'FERMER');
