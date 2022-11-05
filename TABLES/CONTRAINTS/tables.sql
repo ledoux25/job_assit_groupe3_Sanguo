@@ -85,6 +85,7 @@ CREATE TABLE OFFERS(
     sector_id VARCHAR(5),
     status varchar(10 char) not null,
     death_line DATE
+    salaire VARCHAR(80) not null,
 );
 PROMPT Creating table LOCATIONS
 CREATE TABLE LOCATIONS
