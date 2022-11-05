@@ -1,3 +1,4 @@
+
 PROMPT creating comments offers by kanteu maxime
 
 comment on table offers
@@ -118,6 +119,23 @@ comment on column SOUSCRIPTIONS.price
 is 'the price of a subscription';
 comment on column SOUSCRIPTIONS.souscription_id
 is 'Auto-incrementing primary key';
-
 comment on column SOUSCRIPTIONS.duration
 is 'How long those the subscription last';
+
+
+PROMPT creating comments JOBS_DONE by kanteu
+comment on TABLE JOBS_DONE
+is 'it gives the historical details on a past job';
+comment on column JOBS_DONE.job_done_id
+is 'the Auto-incrementing primary key of jobs_done table ';
+comment on column JOBS_DONE.notation
+is'gives us the notation of jobs_done';
+comment on column JOBS_DONE. start_date
+is'gives us details on the beginning of the last job';
+comment on column JOBS_DONE.end_date
+is'gives us details on the end of the last job';
+comment on column JOBS_DONE.comments
+is'give us a litle comment of user last jobs';
+comment on column JOBS_DONE.offer_id
+is 'the Auto-incrementing forein key of offers table ';
+
