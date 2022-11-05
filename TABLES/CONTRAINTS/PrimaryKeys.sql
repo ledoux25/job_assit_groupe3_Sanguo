@@ -1,6 +1,6 @@
 PROMPT Creatig PRIMARY KEYS
 
-ALTER TABLE offer
+ALTER TABLE offers
 ADD
 CONSTRAINT offers_offer_id_pk PRIMARY KEY (offer_id);
 
