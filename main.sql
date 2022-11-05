@@ -13,7 +13,7 @@ PROMPT deleting user
  @@drop_user
 PROMPT creating user
 @@users &ja_password &tbs &ttbs
-conn co/&ja_password@&connect_string
+conn co/&ja_password@&connect_string AS SYSDBA;
 @@TABLES\CONTRAINTS\tables
 @@TABLES\CONTRAINTS\comments
 @@TABLES\CONTRAINTS\contraints

@@ -15,41 +15,71 @@ Utilisateur modifié.
 Connecté.
 DEleting existing tables
 Deleting existing APPLICANTS
+DROP TABLE APPLICANTS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
-Table supprimée.
 
 Deleting existing PROPOSERS
+DROP TABLE PROPOSERS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
-Table supprimée.
 
 Deleting existing LOCATIONS
+DROP TABLE LOCATIONS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
-Table supprimée.
 
 Deleting existing JOB_DONE
+DROP TABLE JOBS_DONE cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
-Table supprimée.
 
 Deleting existing OFFERS
+DROP TABLE OFFERS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
-Table supprimée.
 
 deleting existing SECTOR
+DROP TABLE SECTORS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
-Table supprimée.
 
 deleting existing SOUSCRIPTIONS
-
-Table supprimée.
-
-
-Séquence supprimée.
-
-
-Séquence supprimée.
+DROP TABLE SOUSCRIPTIONS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Séquence supprimée.
+ DROP sequence app_seq 
+               *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+  DROP sequence prop_seq 
+                *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+   DROP sequence offer_seq 
+                 *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
 
 Creating table APPLICANTS
 
@@ -88,118 +118,7 @@ Creating table
 
 Table créée.
 
-creating comments offers by kanteu maxime
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-creating comments locations by kanteu maxime
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-creating comments proposer by kanteu maxime
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-creating comments jobs by malonju
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-creating comments applicant by malonju
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-creating comments job_done by malonju
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-creating comments SOUSCRIPTIONS by malonju
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
+SP2-0310: impossible d'ouvrir le fichier "TABLES\CONTRAINTS\comments!!.sql"
 creating constraint
 
 Table modifiée.
@@ -241,20 +160,23 @@ Table modifiée.
 Table modifiée.
 
 Creatig PRIMARY KEYS
+ALTER TABLE offer
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
 
 Table modifiée.
 
 
 Table modifiée.
 
+ALTER TABLE USERS
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
 
 
 Table modifiée.
@@ -263,6 +185,13 @@ Table modifiée.
 Table modifiée.
 
 Creating foreignKeys
+REFERENCES LOCATIONS (location_id)
+                      *
+ERREUR à la ligne 4 :
+ORA-02270: pas de correspondance de clé primaire ou unique pour cette liste de 
+colonnes 
+
+
 
 Table modifiée.
 
@@ -275,17 +204,25 @@ Table modifiée.
 
 Table modifiée.
 
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
+REFERENCES PROPOSERS(proposer_id)
+                     *
+ERREUR à la ligne 4 :
+ORA-02270: pas de correspondance de clé primaire ou unique pour cette liste de 
+colonnes 
 
 
-Table modifiée.
+REFERENCES APPLICANTS(applicant_id)
+                      *
+ERREUR à la ligne 4 :
+ORA-02270: pas de correspondance de clé primaire ou unique pour cette liste de 
+colonnes 
+
+
+CONSTRAINT offer_id_fk FOREIGN KEY (applicant_id)
+                                    *
+ERREUR à la ligne 3 :
+ORA-00904: "APPLICANT_ID" : identificateur non valide 
+
 
 INSERTING
 INSERTING into SECTORS

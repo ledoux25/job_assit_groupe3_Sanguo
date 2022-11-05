@@ -127,9 +127,9 @@ comment on TABLE JOBS_DONE
 is 'it gives the historical details on a past job';
 comment on column JOBS_DONE.job_done_id
 is 'the Auto-incrementing primary key of jobs_done table ';
-comments on column JOBS_DONE.notation
+comment on column JOBS_DONE.notation
 is'gives us the notation of jobs_done';
-comments on column JOBS_DONE. start_date
+comment on column JOBS_DONE. start_date
 is'gives us details on the beginning of the last job';
 comments on column JOBS_DONE.end_date
 is'gives us details on the end of the last job';
