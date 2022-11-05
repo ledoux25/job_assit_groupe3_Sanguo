@@ -67,3 +67,4 @@ INSERT INTO OFFERS(publication_date, proposer_id, applicant_id, location_id, sec
 INSERT INTO OFFERS(publication_date, proposer_id, applicant_id, location_id, sector_id, status) VALUES ('25/10/2022', 8, 18, 'YAOU', 'ELEC', 'FERMER');
 INSERT INTO OFFERS(publication_date, proposer_id, applicant_id, location_id, sector_id, status) VALUES ('27/10/2022', 21, NULL, 'KRIB', 'SERVE', 'FERMER');
 end;
+/

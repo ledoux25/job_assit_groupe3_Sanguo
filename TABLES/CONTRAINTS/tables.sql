@@ -27,6 +27,10 @@ DROP TABLE SECTORS cascade constraints;
 PROMPT deleting existing SOUSCRIPTIONS
 DROP TABLE SOUSCRIPTIONS cascade constraints;
 
+ DROP sequence app_seq ;
+  DROP sequence prop_seq ;
+   DROP sequence offer_seq ;
+
 
 -- PROMPT deleting existing NOTIFICATIONS
 -- DROP TABLE NOTIFICATIONS cascade constraints;
@@ -36,29 +40,29 @@ PROMPT Creating table APPLICANTS
 CREATE sequence app_seq START WITH 1;
 CREATE TABLE APPLICANTS(
     applicant_id integer DEFAULT app_seq.NEXTVAL NOT NULL,
-    first_name VARCHAR(70 CHAR), --not null,
-    last_name VARCHAR(70 CHAR),--not null,
-    phone_number VARCHAR(20),
-    email VARCHAR(80 CHAR),--NOT NULL,
-    password VARCHAR(80 CHAR),--OT NULL,
+    first_name VARCHAR(20 CHAR), --not null,
+    last_name VARCHAR(20 CHAR),--not null,
+    phone_number VARCHAR(12),
+    email VARCHAR(30 CHAR),--NOT NULL,
+    password VARCHAR(25 CHAR),--OT NULL,
     location_id VARCHAR(5),
     status VARCHAR(15 CHAR), --NOT NULL,
     souscription_id VARCHAR(5),
-    gender varchar(10 char), --not null,
+    gender varchar(2 char), --not null,
     sector_id  varchar(5 char) --not null
     );
 
     PROMPT Creating table PROPOSER
-    CREATE sequence prop_seq START_WITH 1;
+    CREATE sequence prop_seq START WITH 1;
 CREATE TABLE PROPOSERS(
     proposer_id integer DEFAULT prop_seq.NEXTVAL NOT NULL,
-    first_name VARCHAR(70) not null,
-    last_name VARCHAR(70)not null,
+    first_name VARCHAR(20) not null,
+    last_name VARCHAR(20)not null,
     phone_number VARCHAR(20),
-    email VARCHAR(80)NOT NULL,
-    password VARCHAR(80)NOT NULL,
+    email VARCHAR(30)NOT NULL,
+    password VARCHAR(25)NOT NULL,
     souscription_id VARCHAR(5),
-    gender varchar(5) 
+    gender varchar(2) 
     );
     
     PROMPT Creating table JOBS_DONE
@@ -75,7 +79,7 @@ CREATE TABLE PROPOSERS(
 
 
 PROMPT Creating table OFFERS
-CREATE sequence offer_seq START_WITH 1;
+CREATE sequence offer_seq START WITH 1;
 CREATE TABLE OFFERS(
     offer_id integer DEFAULT offer_seq.NEXTVAL NOT NULL,
     publication_date DATE,
