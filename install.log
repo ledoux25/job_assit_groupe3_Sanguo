@@ -1,0 +1,339 @@
+DEleting existing tables
+Deleting existing APPLICANTS
+
+Table supprimée.
+
+Deleting existing PROPOSERS
+
+Table supprimée.
+
+Deleting existing LOCATIONS
+
+Table supprimée.
+
+Deleting existing JOB_DONE
+
+Table supprimée.
+
+Deleting existing OFFERS
+
+Table supprimée.
+
+deleting existing SECTOR
+DROP TABLE SECTORS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+deleting existing SOUSCRIPTIONS
+DROP TABLE SOUSCRIPTIONS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+
+Séquence supprimée.
+
+  DROP sequence prop_seq 
+                *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+   DROP sequence offer_seq 
+                 *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+Creating table APPLICANTS
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table PROPOSER
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table JOBS_DONE
+
+Table créée.
+
+Creating table OFFERS
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table LOCATIONS
+
+Table créée.
+
+Creating table SECTOR
+
+Table créée.
+
+Creating table
+
+Table créée.
+
+creating comments offers by kanteu maxime
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments locations by kanteu maxime
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments proposer by kanteu maxime
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments jobs by malonju
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments applicant by malonju
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments job_done by malonju
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments SOUSCRIPTIONS by malonju
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments JOBS_DONE by kanteu
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating constraint
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+Creatig PRIMARY KEYS
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+Creating foreignKeys
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+INSERTING
+INSERTING into SECTORS
+
+Procédure PL/SQL terminée avec succès.
+
+INSERTING into JOBS
+
+Procédure PL/SQL terminée avec succès.
+
+INSERTING into SOUSCRIPTIONS
+
+Procédure PL/SQL terminée avec succès.
+
+INSERTING PROPOSERS
+
+Procédure PL/SQL terminée avec succès.
+
+INSERTING APPLICANTS
+
+Procédure PL/SQL terminée avec succès.
+
+INSERTING INTO OFFERS
+
+Procédure PL/SQL terminée avec succès.
+
+"-----------------------------------------------------MADE BY-----------------------------------------"
+"-----------------------------------------------------SANGUO-----------------------------------------"
+"-----------------------------------------------------TOKO-------------------------------------------"
+"-----------------------------------------------------CHIEMO-----------------------------------------"
+"-----------------------------------------------------KANTEU-----------------------------------------"
+"-----------------------------------------------------MALONJU-----------------------------------------"

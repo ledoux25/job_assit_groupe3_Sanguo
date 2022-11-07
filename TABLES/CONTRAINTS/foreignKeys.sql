@@ -38,7 +38,7 @@ REFERENCES APPLICANTS(applicant_id);
 
 ALTER TABLE JOBS_DONE
 ADD
-CONSTRAINT offer_id_fk FOREIGN KEY (applicant_id)
+CONSTRAINT offer_id_fk FOREIGN KEY (offer_id)
 REFERENCES offers(offer_id);
 
 -- By toko and ledoux--
