@@ -68,10 +68,10 @@ besoin_id int
 );
 
 
-PROMPT Creating table besoin_realise
+PROMPT Creating table besoins_realise
 CREATE sequence be_rea_seq START WITH 1;
 CREATE TABLE besoin_realiser(
-    besoin_realiser_id integer DEFAULT be_rea_seq.NEXTVAL NOT NULL,
+    besoins_realiser_id integer DEFAULT be_rea_seq.NEXTVAL NOT NULL,
     note float ,
     commentaire VARCHAR( 50 CHAR),
     candidature_id int
