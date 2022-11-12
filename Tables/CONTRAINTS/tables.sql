@@ -104,7 +104,7 @@ CREATE TABLE liste_secteurs(
     user_id int
 );
 
-PROMPT Creating table besion
+PROMPT Creating table besoin
 CREATE sequence bes_seq START WITH 1;
 CREATE TABLE BESOINS(
     besoin_id integer DEFAULT bes_seq.NEXTVAL NOT NULL,
