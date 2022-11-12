@@ -31,15 +31,16 @@ DROP sequence be_rea_seq;
 
 PROMPT Creating table utilisateur
 CREATE sequence user_seq START WITH 1;
-CREATE TABLE utilisateurs(
+CREATE TABLE utilisateurS§(
     user_id integer DEFAULT user_seq.NEXTVAL NOT NULL,
     nom VARCHAR(45 CHAR), 
     prenom VARCHAR(45 CHAR),
     numero VARCHAR(13 char),
     email VARCHAR(45 CHAR),
     mot_de_passe varchar(20 char),
-    statut VARCHAR(15 CHAR),
-    profession VARCHAR(35 CHAR)
+    statut VARCHAR(15 CHAR) DEFAULT 'LIBRE',
+    profession VARCHAR(35 CHAR) ,
+    admin_id integer
 );
 
 PROMPT Creating table candidature 
@@ -104,7 +105,7 @@ CREATE TABLE liste_secteurs(
     user_id int
 );
 
-PROMPT Creating table besion
+PROMPT Creating table besoinn
 CREATE sequence bes_seq START WITH 1;
 CREATE TABLE BESOINS(
     besoin_id integer DEFAULT bes_seq.NEXTVAL NOT NULL,
