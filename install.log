@@ -1,143 +1,149 @@
 DEleting existing tables
-Deleting existing APPLICANTS
-
-Table supprimée.
-
-Deleting existing PROPOSERS
-
-Table supprimée.
-
-Deleting existing LOCATIONS
-
-Table supprimée.
-
-Deleting existing JOB_DONE
-
-Table supprimée.
-
-Deleting existing OFFERS
-
-Table supprimée.
-
-deleting existing SECTOR
-DROP TABLE SECTORS cascade constraints
+DROP TABLE utilisateurs cascade constraints
            *
 ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
-deleting existing SOUSCRIPTIONS
-DROP TABLE SOUSCRIPTIONS cascade constraints
+DROP TABLE  candidatures cascade constraints
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+DROP TABLE publications cascade constraints
            *
 ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
+DROP TABLE besoin_realise cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
-Séquence supprimée.
 
-  DROP sequence prop_seq 
-                *
+DROP TABLE recommendations cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+DROP TABLE secteurs cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+DROP TABLE liste_secteurs cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+DROP TABLE BESOINS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+DEleting existing sequence
+DROP sequence user_seq
+              *
 ERREUR à la ligne 1 :
 ORA-02289: la séquence n'existe pas 
 
 
-   DROP sequence offer_seq 
-                 *
+DROP sequence can_seq
+              *
 ERREUR à la ligne 1 :
 ORA-02289: la séquence n'existe pas 
 
 
-Creating table APPLICANTS
+DROP sequence pub_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+DROP sequence  recomm_seq
+               *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+DROP sequence use_sec_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+DROP sequence bes_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+DROP sequence be_rea_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+Creating table utilisateur
 
 Séquence créée.
 
 
 Table créée.
 
-Creating table PROPOSER
+Creating table candidature
 
 Séquence créée.
 
 
 Table créée.
 
-Creating table JOBS_DONE
-
-Table créée.
-
-Creating table OFFERS
+Creating table publication
 
 Séquence créée.
 
 
 Table créée.
 
-Creating table LOCATIONS
+Creating table besoin_realise
+
+Séquence créée.
+
 
 Table créée.
 
-Creating table SECTOR
+Creating table recommendation
+
+Séquence créée.
+
 
 Table créée.
 
-Creating table
+Creating table secteurs
 
 Table créée.
 
-creating comments offers by kanteu maxime
+Creating table liste_secteur
 
-Commentaire créé.
-
-
-Commentaire créé.
+Séquence créée.
 
 
-Commentaire créé.
+Table créée.
+
+Creating table besion
+
+Séquence créée.
 
 
-Commentaire créé.
+Table créée.
 
-creating comments locations by kanteu maxime
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-creating comments proposer by kanteu maxime
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-creating comments jobs by malonju
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-creating comments applicant by malonju
+creating comments users by CHIEMO WANDJI
 
 Commentaire créé.
 
@@ -165,23 +171,7 @@ Commentaire créé.
 
 Commentaire créé.
 
-
-Commentaire créé.
-
-creating comments job_done by malonju
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-creating comments SOUSCRIPTIONS by malonju
+creating comments CANDIDATURE by CHIEMO WANDJI
 
 Commentaire créé.
 
@@ -197,7 +187,10 @@ Commentaire créé.
 
 Commentaire créé.
 
-creating comments JOBS_DONE by kanteu
+
+Commentaire créé.
+
+creating comments PUBLICATION by CHIEMO WANDJI
 
 Commentaire créé.
 
@@ -219,118 +212,103 @@ Commentaire créé.
 
 Commentaire créé.
 
-creating constraint
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
+creating comments BESOIN by CHIEMO WANDJI
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
+creating comments besoin_realise by CHIEMO WANDJI
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
-Creatig PRIMARY KEYS
+creating comments RECOMMANDATION by CHIEMO WANDJI
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
-Creating foreignKeys
 
-Table modifiée.
+Commentaire créé.
 
+creating comments secteur by CHIEMO WANDJI
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
+creating comments liste_secteur by CHIEMO WANDJI
 
-Table modifiée.
+Commentaire créé.
 
 
-Table modifiée.
+Commentaire créé.
 
-INSERTING
-INSERTING into SECTORS
 
-Procédure PL/SQL terminée avec succès.
+Commentaire créé.
 
-INSERTING into JOBS
 
-Procédure PL/SQL terminée avec succès.
+Commentaire créé.
 
-INSERTING into SOUSCRIPTIONS
-
-Procédure PL/SQL terminée avec succès.
-
-INSERTING PROPOSERS
-
-Procédure PL/SQL terminée avec succès.
-
-INSERTING APPLICANTS
-
-Procédure PL/SQL terminée avec succès.
-
-INSERTING INTO OFFERS
-
-Procédure PL/SQL terminée avec succès.
-
+SP2-0310: impossible d'ouvrir le fichier "TABLES\CONTRAINTS\contraints.sql"
+SP2-0310: impossible d'ouvrir le fichier "TABLES\data.sql"
 "-----------------------------------------------------MADE BY-----------------------------------------"
 "-----------------------------------------------------SANGUO-----------------------------------------"
 "-----------------------------------------------------TOKO-------------------------------------------"
