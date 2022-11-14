@@ -13,8 +13,6 @@ ALTER TABLE utilisateurs ADD CONSTRAINT utilisateurs_email unique (email) ;
 ALTER TABLE utilisateurs ADD CONSTRAINT utilisateurs_passeword unique (mot_de_passe) ;
 ALTER TABLE utilisateurs ADD CONSTRAINT statut 
                                 check (statut in ('bloquer','libre','occuper')) ;
-ALTER TABLE utilisateurs ADD CONSTRAINT utilisateur_gender
-                              check(genre in ('M','F','Mix')); 
 
 
 ALTER TABLE besoin_realise

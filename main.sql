@@ -18,7 +18,7 @@ spool install.log
 @@TABLES\CONTRAINTS\tables
 @@TABLES\CONTRAINTS\comments
 @@TABLES\CONTRAINTS\contraints
-@@TABLES\data
+@@TABLES\utilisateur
 
 PROMPT "-----------------------------------------------------MADE BY-----------------------------------------"
 PROMPT "-----------------------------------------------------SANGUO-----------------------------------------"
