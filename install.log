@@ -1,0 +1,317 @@
+DEleting existing tables
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+DROP TABLE secteurs cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00054: ressource occupée et acquisition avec NOWAIT indiqué ou expiration 
+
+
+
+Table supprimée.
+
+
+Table supprimée.
+
+DEleting existing sequence
+
+Séquence supprimée.
+
+
+Séquence supprimée.
+
+
+Séquence supprimée.
+
+
+Séquence supprimée.
+
+
+Séquence supprimée.
+
+
+Séquence supprimée.
+
+
+Séquence supprimée.
+
+Creating table utilisateur
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table candidature
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table publication
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table besoins_realise
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table recommendation
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table secteurs
+CREATE TABLE secteurs(
+             *
+ERREUR à la ligne 1 :
+ORA-00955: ce nom d'objet existe déjà 
+
+
+Creating table liste_secteur
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table besion
+
+Séquence créée.
+
+
+Table créée.
+
+creating comments users by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments CANDIDATURE by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments PUBLICATION by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments BESOIN by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments besoin_realise by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments RECOMMANDATION by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments secteur by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments liste_secteur by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating constraint
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+
+Table modifiée.
+
+INSERTING DATA
+INSERTING into SECTEURS
+
+Procédure PL/SQL terminée avec succès.
+
+INSERTING into recommendations
+
+Procédure PL/SQL terminée avec succès.
+
+INSERTING into UTILISATEURS
+
+Procédure PL/SQL terminée avec succès.
+
+"-----------------------------------------------------MADE BY-----------------------------------------"
+"-----------------------------------------------------SANGUO-----------------------------------------"
+"-----------------------------------------------------TOKO-------------------------------------------"
+"-----------------------------------------------------CHIEMO-----------------------------------------"
+"-----------------------------------------------------KANTEU-----------------------------------------"
+"-----------------------------------------------------MALONJU-----------------------------------------"

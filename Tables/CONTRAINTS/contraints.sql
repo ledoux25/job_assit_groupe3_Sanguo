@@ -9,7 +9,7 @@ ALTER TABLE utilisateurs ADD CONSTRAINT utilisateurs_numero unique (numero) ;
 ALTER TABLE utilisateurs ADD CONSTRAINT utilisateurs_email unique (email) ;
 ALTER TABLE utilisateurs ADD CONSTRAINT utilisateurs_passeword unique (mot_de_passe) ;
 ALTER TABLE utilisateurs ADD CONSTRAINT statut 
-                                check (statut in ('bloquer','libre','occuper')) ;
+                                check (statut in ('BLOQUER','LIBRE','OCCUPER')) ;
 
 
 ALTER TABLE besoin_realise ADD CONSTRAINT note
