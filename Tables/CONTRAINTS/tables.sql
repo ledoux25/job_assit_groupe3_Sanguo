@@ -68,7 +68,7 @@ besoin_id int
 
 PROMPT Creating table besoins_realise
 CREATE sequence be_rea_seq START WITH 1;
-CREATE TABLE besoin_realiser(
+CREATE TABLE besoin_realise(
     besoins_realiser_id integer DEFAULT be_rea_seq.NEXTVAL NOT NULL,
     note float ,
     commentaire VARCHAR( 50 CHAR),
