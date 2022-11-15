@@ -9,7 +9,7 @@ INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,re
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('WANDJI',659332211,'wandji@gmail.com','courageux','confirmer',5);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('CHEMO',654556633,'chemo@gmail.com','propre','regeter',5);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('BAVOUA',677382211,'bavoua@gmail.com','alcolique','regeter',5);
-INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('EBONKE',659332211,'ebonke@gmail.com','alcolique','regeter',2);
+INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('EBONKE',659334611,'ebonke@gmail.com','alcolique','regeter',2);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('POKEM',659334211,'pokem@gmail.com','courageux','regeter',2);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('POUANI',659132211,'pouani@gmail.com','travailleur','confirmer',2);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('RAYE',659232211,'raye@gmail.com','courageux','regeter',6);
@@ -35,7 +35,7 @@ INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,re
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('MANGA',659332281,'manga@gmail.com','il est tres  courageux','confirmer',12);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('MBAH',659332291,'mbah@gmail.com','il est tres  courageux','regeter',13);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('MOTSO',659331211,'motso@gmail.com','courageux','confirmer',14);
-INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('MOUOFO',659334211,'wandji@gmail.com','courageux','confirmer',15);
+INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('MOUOFO',657334211,'wandji@gmail.com','courageux','confirmer',15);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('NA',659335211,'na@gmail.com','il est tres insolant','regeter',12);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('NGEUNOU',659337211,'ngeunou@gmail.com','courageux','confirmer',12);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('NGUIAKAM',659338211,'nguiakam@gmail.com','courageux','regeter',33);
