@@ -1,21 +1,12 @@
 DEleting existing tables
-DROP TABLE utilisateurs cascade constraints
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
+
+Table supprimée.
 
 
-DROP TABLE  candidatures cascade constraints
-            *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
+Table supprimée.
 
 
-DROP TABLE publications cascade constraints
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
-
+Table supprimée.
 
 DROP TABLE besoin_realise cascade constraints
            *
@@ -23,72 +14,39 @@ ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
-DROP TABLE recommendations cascade constraints
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
+
+Table supprimée.
 
 
-DROP TABLE secteurs cascade constraints
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
+Table supprimée.
 
 
-DROP TABLE liste_secteurs cascade constraints
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
+Table supprimée.
 
 
-DROP TABLE BESOINS cascade constraints
-           *
-ERREUR à la ligne 1 :
-ORA-00942: Table ou vue inexistante 
-
+Table supprimée.
 
 DEleting existing sequence
-DROP sequence user_seq
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
+
+Séquence supprimée.
 
 
-DROP sequence can_seq
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
+Séquence supprimée.
 
 
-DROP sequence pub_seq
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
+Séquence supprimée.
 
 
-DROP sequence  recomm_seq
-               *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
+Séquence supprimée.
 
 
-DROP sequence use_sec_seq
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
+Séquence supprimée.
 
 
-DROP sequence bes_seq
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
+Séquence supprimée.
 
 
-DROP sequence be_rea_seq
-              *
-ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
-
+Séquence supprimée.
 
 Creating table utilisateur
 
@@ -113,8 +71,11 @@ Creating table besoins_realise
 
 Séquence créée.
 
+CREATE TABLE besoin_realiser(
+             *
+ERREUR à la ligne 1 :
+ORA-00955: ce nom d'objet existe déjà 
 
-Table créée.
 
 Creating table recommendation
 
