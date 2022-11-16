@@ -52,6 +52,7 @@ CREATE TABLE candidatures(
     publication_id int,
     user_id int
 );
+
 PROMPT Creating table publication
 CREATE sequence pub_seq START WITH 1;
 CREATE TABLE publications(
@@ -104,7 +105,7 @@ CREATE TABLE liste_secteurs(
     user_id int
 );
 
-PROMPT Creating table besion`````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+PROMPT Creating table besion`
 CREATE sequence bes_seq START WITH 1;
 CREATE TABLE BESOINS(
     besoin_id integer DEFAULT bes_seq.NEXTVAL NOT NULL,
@@ -114,6 +115,16 @@ CREATE TABLE BESOINS(
     user_id int,
     secteur_id varchar(5)
 );
+`
 
+--publication
+-- utilisation de timestamp sur des champ date
+-- utilisation de timestamp sur un champ varchar
+-- utilisation de 
 
+--besoins
+ -- ne pas preciser temps plein ou pas dans la creation des besoins c'est deja fait dans la publication4
+ -- pas de cle etrangeres
 
+--sectteur
+ -- penser a remplir les valeurs de la colonne nbr_utilisateurs grace a une fonctionalite

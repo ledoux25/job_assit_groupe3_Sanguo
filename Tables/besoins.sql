@@ -2,7 +2,7 @@ PROMPT INSERTING into BESOINS
 SET DEFINE OFF;
 begin
 INSERT INTO BESOINS(description,paiement_par,localisation)
-VALUES('besoins d une menagere a temps plein ','mois','douala');
+VALUES('besoins d une menagere','mois','douala');
 
 INSERT INTO BESOINS(description,paiement_par,localisation)
 VALUES('beoins d un plombier ','jour','douala');
@@ -11,7 +11,7 @@ INSERT INTO BESOINS(description,paiement_par,localisation)
 VALUES('beoins d un mecanisien ','jour','yaounde');
 
 INSERT INTO BESOINS(description,paiement_par,localisation)
-VALUES('beoins d une nounou en plein temps','semaine','yaounde');
+VALUES('beoins d une nounou','semaine','yaounde');
 
 
 INSERT INTO BESOINS(description,paiement_par,localisation)
