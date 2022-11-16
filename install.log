@@ -84,10 +84,60 @@ DROP sequence be_rea_seq
 ERREUR � la ligne 1 :
 ORA-02289: la s�quence n'existe pas 
 
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+DROP TABLE secteurs cascade constraints
+           *
+ERREUR � la ligne 1 :
+ORA-00054: ressource occup�e et acquisition avec NOWAIT indiqu� ou expiration 
+
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+DEleting existing sequence
+
+S�quence supprim�e.
+
+
+S�quence supprim�e.
+
+
+S�quence supprim�e.
+
+
+S�quence supprim�e.
+
+
+S�quence supprim�e.
+
+
+S�quence supprim�e.
+
+
+S�quence supprim�e.
 
 Creating table utilisateur
 
 S�quence cr��e.
+
+
+Table cr��e.
 
 
 Table cr��e.
@@ -128,6 +178,8 @@ CREATE TABLE secteurs(
              *
 ERREUR � la ligne 1 :
 ORA-00955: ce nom d'objet existe d�j� 
+ERREUR � la ligne 1 :
+ORA-00955: ce nom d'objet existe d�j� 
 
 
 Creating table liste_secteur
@@ -146,6 +198,31 @@ Table cr��e.
 
 creating comments users by CHIEMO WANDJI
 
+Commentaire cr��.
+
+
+Commentaire cr��.
+
+
+Commentaire cr��.
+
+
+Commentaire cr��.
+
+
+Commentaire cr��.
+
+
+Commentaire cr��.
+
+
+Commentaire cr��.
+
+
+Commentaire cr��.
+
+
+Commentaire cr��.
 Commentaire cr��.
 
 
@@ -253,6 +330,19 @@ Commentaire cr��.
 
 
 Commentaire cr��.
+Commentaire cr��.
+
+
+Commentaire cr��.
+
+
+Commentaire cr��.
+
+
+Commentaire cr��.
+
+
+Commentaire cr��.
 
 creating comments RECOMMANDATION by CHIEMO WANDJI
 
@@ -312,6 +402,10 @@ creating constraint
 
 Table modifi�e.
 
+Table modifi�e.
+
+
+Table modifi�e.
 
 Table modifi�e.
 
@@ -319,6 +413,16 @@ Table modifi�e.
 Table modifi�e.
 
 
+Table modifi�e.
+
+
+Table modifi�e.
+
+
+Table modifi�e.
+
+
+Table modifi�e.
 Table modifi�e.
 
 
@@ -339,10 +443,25 @@ Table modifi�e.
 INSERTING DATA
 INSERTING into SECTEURS
 
+Table modifi�e.
 Proc�dure PL/SQL termin�e avec succ�s.
 
 INSERTING into recommendations
 
+Table modifi�e.
+
+INSERTING DATA
+INSERTING into SECTEURS
+
+Proc�dure PL/SQL termin�e avec succ�s.
+
+INSERTING into recommendations
+
+Proc�dure PL/SQL termin�e avec succ�s.
+
+INSERTING into UTILISATEURS
+
+Proc�dure PL/SQL termin�e avec succ�s.
 Proc�dure PL/SQL termin�e avec succ�s.
 
 INSERTING into UTILISATEURS

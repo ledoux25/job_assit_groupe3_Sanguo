@@ -7,7 +7,7 @@ INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,re
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('FAMI',655447777,'fami@gmail.com','il est bon et courageux','rejeter',3);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('LEYA',65548899,'leya@gmail.com','il est bon et courageux','confirmer',4);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('WANDJI',659332211,'wandji@gmail.com','courageux','confirmer',5);
-INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('CHIEMO',654556633,'chiemo@gmail.com','propre','rejeter',5);
+INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('CHEMO',654556633,'chemo@gmail.com','propre','rejeter',5);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('BAVOUA',677382211,'bavoua@gmail.com','alcolique','rejeter',5);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('EBONKE',659334611,'ebonke@gmail.com','alcolique','rejeter',2);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('POKEM',659334211,'pokem@gmail.com','courageux','rejeter',2);
@@ -22,7 +22,7 @@ INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,re
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('TANKO',859332211,'tanko@gmail.com','il est tres  courageux','rejeter',3);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('TCHAGOU',959332211,'tchagou@gmail.com','il est tres  courageux','confirmer',3);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('DJOUDA',659332213,'djouda@gmail.com','travailleur','confirmer',8);
-INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('FOSSA',659332214,'fossa@gmail.com','il est tres  courageux','confirmer',9);
+INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('FOSSA%',659332214,'fossa@gmail.com','il est tres  courageux','confirmer',9);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('JIDJOU',659332215,'jidjou@gmail.com','travailleur','rejeter',10);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('JOSOUE',659332216,'josue@gmail.com','il est tres  courageux','rejeter',11);
 INSERT INTO recommendations(recom_nom,recom_numero,recom_email,recom_contenue,recom_statut,user_id) VALUES('KANGUE',659332217,'kangue@gmail.com','il est tres  courageux','rejeter',11);
