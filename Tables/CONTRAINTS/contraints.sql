@@ -18,7 +18,9 @@ ALTER TABLE besoin_realise ADD CONSTRAINT note
 ALTER TABLE candidatures ADD CONSTRAINT statut_candidature
                                  check(statut_candidature in('RETENU','REJETER','CONFIRMER'))
 
-ALTER TABLE publications ADD CONSTRAINT statut_publication
-                                check (statut_publication in ('OUVERTE','FERMER')) ;
+ALTER TABLE BESOINS ADD CONSTRAINT paiement_par
+                                check (paiement_par in ('JOUR','MOIS','SEMAINE')) ;
+
+
 
 

@@ -104,17 +104,11 @@ CREATE TABLE liste_secteurs(
     user_id int,
     profession varchar(25 char)
 );
-<<<<<<< HEAD
-
-PROMPT Creating table besoinn
-=======
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 PROMPT Creating table besoins
->>>>>>> a5994e7302db959bc4c76531ce49bc160c1b0532
 CREATE sequence bes_seq START WITH 1;
 CREATE TABLE BESOINS(
     besoin_id integer DEFAULT bes_seq.NEXTVAL NOT NULL,
-    description VARCHAR (50 CHAR),
     paiement_par VARCHAR (10 char),
     localisation VARCHAR (15 char),
     user_id int,
