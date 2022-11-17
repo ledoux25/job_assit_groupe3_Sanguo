@@ -2,22 +2,12 @@
 PROMPT INSERTING into UTILISATEURS
 SET DEFINE OFF;
 begin
-<<<<<<< HEAD
+
 INSERT INTO utilisateurs(nom, prenom, numero, email, mot_de_passe, statut, profession) VALUES ('Sanguo','Joseph','690375863','sanguojoseph5@gmail.com','admin','LIBRE','menagere');--1
  INSERT INTO UTILISATEURS(nom, prenom, numero, email, mot_de_passe, statut, profession) VALUES ('Atsangou','Darel','692-345-123','atsangoudarel23@gmail.com','atsa','LIBRE','plombier');--2
 
  INSERT INTO UTILISATEURS(nom, prenom, numero, email, mot_de_passe, statut, profession) VALUES ('Chiemo','patrice','656-239-003','Chiemopatrice03@gmail.com','chie','0CCUPE','couturiere');--3
  INSERT INTO UTILISATEURS(nom, prenom, numero, email, mot_de_passe, statut, profession) VALUES ('Awounang','stone','677-340-323','aowounangstonel23@gmail.com','awou','BLOQUER','jardinier');--4
-=======
-INSERT INTO utilisateurs(nom, prenom, numero, email, mot_de_passe, statut, profession) VALUES ('Sanguo','Joseph','690375863','sanguojoseph5@gmail.com','admin','LIBRE','menagere');
-INSERT INTO UTILISATEURS(nom, prenom, numero, email, mot_de_passe, statut, profession) VALUES ('Atsangou','Darel','692-345-123','atsangoudarel23@gmail.com','atsa','LIBRE','plombier');
-INSERT INTO UTILISATEURS(nom, prenom, numero, email, mot_de_passe, statut, profession) VALUES ('Chiemo','patrice','656-239-003','Chiemopatrice03@gmail.com','chie','0CCUPE','couturiere');
-INSERT INTO UTILISATEURS(nom, prenom, numero, email, mot_de_passe, statut, profession) VALUES ('Awounang','stone','677-340-323','aowounangstonel23@gmail.com','awou','BLOQUER','jardinier');
-INSERT INTO UTILISATEURS(nom, prenom, numero, email, mot_de_passe, statut, profession) VALUES ('Bavoua','borelrel','657-840-103','Bavouaborel@gmail.com','bavou','LIBRE','homme de chambre');
-INSERT INTO UTILISATEURS(nom, prenom, numero, email, mot_de_passe, statut, profession) VALUES ('Biyack','florent','659-245-023','Biyackflorentl3@gmail.com','biyac','LIBRE','baby-sitting');
-INSERT INTO UTILISATEURS(nom, prenom, numero, email, mot_de_passe, statut, profession) VALUES ('Djouda','patric','690-367-143','Djoudapatric23@gmail.com','djou','BLOQUER','cousier');
-INSERT INTO UTILISATEURS(nom, prenom, numero, email, mot_de_passe, statut, profession) VALUES ('Ekonke','preshly','677-445-193','Ebonkepreshly03@gmail.com','ekon','OCCUPER','decorateur');
->>>>>>> 31a711655a2a699c807300df737805655dc04a0a
 
  INSERT INTO UTILISATEURS(nom, prenom, numero, email, mot_de_passe, statut, profession) VALUES ('Chiemo','patrice','656-239-003','Chiemopatrice03@gmail.com','chie','OCCUPER','couturiere');--5
  INSERT INTO UTILISATEURS(nom, prenom, numero, email, mot_de_passe, statut, profession) VALUES ('Awounang','stone','677-340-323','aowounangstonel23@gmail.com','awou','BLOQUER','jardininier');--6

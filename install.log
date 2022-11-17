@@ -1,28 +1,9 @@
 DEleting existing tables
 
-Table supprimï¿½e.
-
-Table supprimï¿½e.
+Table supprimée.
 
 
-Table supprimï¿½e.
-Table supprimï¿½e.
-
-
-DROP TABLE publications cascade constraints
-           *
-ERREUR ï¿½ la ligne 1 :
-ORA-00942: Table ou vue inexistante 
-
-
-Table supprimï¿½e.
-
-
-DROP TABLE recommendations cascade constraints
-           *
-ERREUR ï¿½ la ligne 1 :
-ORA-00942: Table ou vue inexistante 
-
+Table supprimée.
 
 
 Table supprimée.
@@ -30,295 +11,176 @@ Table supprimée.
 
 Table supprimée.
 
-DROP TABLE BESOINS cascade constraints
+
+Table supprimée.
+
+DROP TABLE secteurs cascade constraints
            *
-<<<<<<< HEAD
 ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
-=======
-ERREUR ï¿½ la ligne 1 :
-ORA-00942: Table ou vue inexistante 
 
-
-DROP TABLE liste_secteurs cascade constraints
-           *
-ERREUR ï¿½ la ligne 1 :
-ORA-00942: Table ou vue inexistante 
-
+Table supprimée.
 
 DROP TABLE BESOINS cascade constraints
            *
-ERREUR ï¿½ la ligne 1 :
+ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
 DEleting existing sequence
-DROP sequence user_seq
-              *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas 
 
+Séquence supprimée.
 
-DROP sequence can_seq
-              *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas 
 
+Séquence supprimée.
 
-DROP sequence pub_seq
-              *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas 
 
+Séquence supprimée.
 
-DROP sequence  recomm_seq
-               *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas 
 
+Séquence supprimée.
 
-DROP sequence use_sec_seq
-              *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas 
 
+Séquence supprimée.
 
-DROP sequence bes_seq
-              *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas 
 
+Séquence supprimée.
 
-DROP sequence be_rea_seq
-              *
-ERREUR ï¿½ la ligne 1 :
-ORA-02289: la sï¿½quence n'existe pas 
 
-Table supprimï¿½e.
+Séquence supprimée.
 
+Creating table utilisateurs
 
-Table supprimï¿½e.
+Séquence créée.
 
-
-Table supprimï¿½e.
-
-
-Table supprimï¿½e.
-
-
-Table supprimï¿½e.
-
-DROP TABLE secteurs cascade constraints
-           *
-ERREUR ï¿½ la ligne 1 :
-ORA-00054: ressource occupï¿½e et acquisition avec NOWAIT indiquï¿½ ou expiration 
-
-
-
-Table supprimï¿½e.
-
-
-Table supprimï¿½e.
-
->>>>>>> 31a711655a2a699c807300df737805655dc04a0a
-DEleting existing sequence
-
-Sï¿½quence supprimï¿½e.
-
-
-Sï¿½quence supprimï¿½e.
-
-
-Sï¿½quence supprimï¿½e.
-
-
-Sï¿½quence supprimï¿½e.
-
-
-Sï¿½quence supprimï¿½e.
-
-
-Sï¿½quence supprimï¿½e.
-
-
-Sï¿½quence supprimï¿½e.
-
-Creating table utilisateur
-
-Sï¿½quence crï¿½ï¿½e.
-
-
-Table crï¿½ï¿½e.
-
-
-Table crï¿½ï¿½e.
-
-Creating table candidature
-
-Sï¿½quence crï¿½ï¿½e.
-
-
-Table crï¿½ï¿½e.
-
-Creating table publication
-
-Sï¿½quence crï¿½ï¿½e.
-
-
-Table crï¿½ï¿½e.
-
-Creating table besoins_realise
-
-Sï¿½quence crï¿½ï¿½e.
-
-CREATE TABLE besoin_realiser(
-             *
-ERREUR ï¿½ la ligne 1 :
-ORA-00955: ce nom d'objet existe dï¿½jï¿½ 
-
-
-Creating table recommendation
-
-Sï¿½quence crï¿½ï¿½e.
-
-
-Table crï¿½ï¿½e.
-
-Creating table secteurs
-<<<<<<< HEAD
-=======
-CREATE TABLE secteurs(
-             *
-ERREUR ï¿½ la ligne 1 :
-ORA-00955: ce nom d'objet existe dï¿½jï¿½ 
-ERREUR ï¿½ la ligne 1 :
-ORA-00955: ce nom d'objet existe dï¿½jï¿½ 
->>>>>>> 31a711655a2a699c807300df737805655dc04a0a
 
 Table créée.
 
-Creating table liste_secteur
+Creating table candidatures
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
 
-Table crï¿½ï¿½e.
+Table créée.
 
-Creating table besions
+Creating table publications
 
-Sï¿½quence crï¿½ï¿½e.
+Séquence créée.
 
-<<<<<<< HEAD
+
+Table créée.
+
+Creating table besoins_realise
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table recommendations
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table secteurs
+)
+*
+ERREUR à la ligne 5 :
+ORA-00904:  : identificateur non valide 
+
+
+Creating table liste_secteurs
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table besoins
+
+Séquence créée.
+
 SP2-0042: commande inconnue ")" - reste de la ligne ignoré.
-=======
-
-Table crï¿½ï¿½e.
-
->>>>>>> 31a711655a2a699c807300df737805655dc04a0a
 creating comments users by CHIEMO WANDJI
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 creating comments CANDIDATURE by CHIEMO WANDJI
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 creating comments PUBLICATION by CHIEMO WANDJI
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 creating comments BESOIN by CHIEMO WANDJI
-<<<<<<< HEAD
 comment on table besoins
                  *
 ERREUR à la ligne 1 :
@@ -354,232 +216,197 @@ comment on column besoins.secteur_id
 ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
-=======
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
->>>>>>> 31a711655a2a699c807300df737805655dc04a0a
 
 creating comments besoin_realise by CHIEMO WANDJI
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 creating comments RECOMMANDATION by CHIEMO WANDJI
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 creating comments secteur by CHIEMO WANDJI
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
-
-
-Commentaire crï¿½ï¿½.
+comment on  table secteurs
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Commentaire crï¿½ï¿½.
+comment on column secteurs.secteur_id
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Commentaire crï¿½ï¿½.
+comment on column secteurs.secteur_nom
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column secteurs.secteur_description
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column secteurs.nombre_utilisateur
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
 
 creating comments liste_secteur by CHIEMO WANDJI
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 
-Commentaire crï¿½ï¿½.
+Commentaire créé.
 
 creating constraint
 
-Table modifiï¿½e.
-
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
-
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
+Table modifiée.
 
 
-Table modifiï¿½e.
-
-
-Table modifiï¿½e.
-
-
-Table modifiï¿½e.
-
-
-Table modifiï¿½e.
+Table modifiée.
 
 INSERTING DATA
 INSERTING into SECTEURS
-
-Table modifiï¿½e.
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-INSERTING into recommendations
-
-Table modifiï¿½e.
-
-INSERTING DATA
-INSERTING into SECTEURS
-
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-INSERTING into recommendations
-
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-
-INSERTING into UTILISATEURS
-begin
-*
-ERREUR à la ligne 1 :
-ORA-02290: violation de contraintes (SYSTEM.STATUT) de vérification 
-ORA-06512: à ligne 5 
-
-
-INSERTING into BESOINS
-INSERT INTO BESOINS(description,paiement_par,localisation)
+INSERT INTO SECTEURS(secteur_id ,secteur_nom, secteur_description)VALUES('DOMES','Service Domestique','service interne(menagÃ¨re)');--5
             *
 ERREUR à la ligne 2 :
 ORA-06550: Ligne 2, colonne 13 : 
 PL/SQL: ORA-00942: Table ou vue inexistante 
 ORA-06550: Ligne 2, colonne 1 : 
 PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 3, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 3, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 4, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 4, colonne 1 : 
+PL/SQL: SQL Statement ignored 
 ORA-06550: Ligne 5, colonne 13 : 
 PL/SQL: ORA-00942: Table ou vue inexistante 
 ORA-06550: Ligne 5, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 6, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 6, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 7, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 7, colonne 1 : 
 PL/SQL: SQL Statement ignored 
 ORA-06550: Ligne 8, colonne 13 : 
 PL/SQL: ORA-00942: Table ou vue inexistante 
 ORA-06550: Ligne 8, colonne 1 : 
 PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 9, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 9, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 10, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 10, colonne 1 : 
+PL/SQL: SQL Statement ignored 
 ORA-06550: Ligne 11, colonne 13 : 
 PL/SQL: ORA-00942: Table ou vue inexistante 
 ORA-06550: Ligne 11, colonne 1 : 
 PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 15, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 15, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 19, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 19, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 23, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 23, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 27, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 27, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 31, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 31, colonne 1 : 
-PL/SQL: SQL Statement ignored 
-ORA-06550: Ligne 35, colonne 13 : 
-PL/SQL: ORA-00942: Table ou vue inexistante 
-ORA-06550: Ligne 35, colonne 1 : 
-PL/SQL: SQL Statement ignored 
 
-<<<<<<< HEAD
-=======
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+
+INSERTING into recommendations
+
+Procédure PL/SQL terminée avec succès.
 
 INSERTING into UTILISATEURS
+begin
+*
+ERREUR à la ligne 1 :
+ORA-02290: violation de contraintes (SYSTEM.STATUT) de vérification 
+ORA-06512: à ligne 6 
 
-Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
->>>>>>> 31a711655a2a699c807300df737805655dc04a0a
+
+INSERTING into BESOINS
+,
+*
+ERREUR à la ligne 45 :
+ORA-06550: Ligne 45, colonne 1 : 
+PLS-00103: Symbole "," rencontré à la place d'un des symboles suivants : 
+( begin case declare end exception exit for goto if loop mod 
+null pragma raise return select update while with 
+<identificateur> <identificateur entre guillemets> 
+<variable attachée> << continue close current delete fetch 
+lock insert open rollback savepoint set sql execute commit 
+forall merge standard pipe purge json_object 
+Symbole "," n'a pas été pris en compte. 
+ORA-06550: Ligne 78, colonne 78 : 
+PLS-00103: Symbole "," rencontré à la place d'un des symboles suivants : 
+( select values 
+Symbole "," n'a pas été pris en compte. 
+
 
 "-----------------------------------------------------MADE BY-----------------------------------------"
 "-----------------------------------------------------SANGUO-----------------------------------------"

@@ -27,13 +27,7 @@ DROP sequence bes_seq;
 DROP sequence be_rea_seq;
 
 
-<<<<<<< HEAD
-PROMPT Creating table utilisateur
-=======
-
-
 PROMPT Creating table utilisateurs
->>>>>>> 31a711655a2a699c807300df737805655dc04a0a
 CREATE sequence user_seq START WITH 1;
 CREATE TABLE utilisateurs(
     user_id integer DEFAULT user_seq.NEXTVAL NOT NULL,
@@ -109,13 +103,8 @@ CREATE TABLE liste_secteurs(
     secteur_id int,
     user_id int
 );
-
-<<<<<<< HEAD
-PROMPT Creating table besions                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-=======
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 PROMPT Creating table besoins
-
->>>>>>> 31a711655a2a699c807300df737805655dc04a0a
 CREATE sequence bes_seq START WITH 1;
 CREATE TABLE BESOINS(
     besoin_id integer DEFAULT bes_seq.NEXTVAL NOT NULL,
@@ -128,8 +117,6 @@ CREATE TABLE BESOINS(
 );
 
 
-<<<<<<< HEAD
-=======
 --publication
 -- utilisation de timestamp sur des champ date
 -- utilisation de timestamp sur un champ varchar
@@ -141,4 +128,4 @@ CREATE TABLE BESOINS(
 
 --secteur
  -- penser a remplir les valeurs de la colonne nbr_utilisateurs grace a une fonctionalite
->>>>>>> 31a711655a2a699c807300df737805655dc04a0a
+
