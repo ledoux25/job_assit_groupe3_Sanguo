@@ -36,19 +36,8 @@ CREATE TABLE utilisateurS§(
     numero VARCHAR(13 char),
     email VARCHAR(45 CHAR),
     mot_de_passe varchar(20 char),
-<<<<<<< HEAD
     statut VARCHAR(15 CHAR) DEFAULT 'LIBRE',
-    profession VARCHAR(35 CHAR) ,
     admin_id integer
-=======
-    statut VARCHAR(15 CHAR),
-<<<<<<< HEAD
-    profession VARCHAR(35 CHAR)
-    
->>>>>>> 13e9de2f861e49292620629bfede290526a9dab3
-=======
-    profession VARCHAR(35 CHAR) 
->>>>>>> a5994e7302db959bc4c76531ce49bc160c1b0532
 );
 
 PROMPT Creating table candidatures 
@@ -112,7 +101,8 @@ CREATE sequence use_sec_seq START WITH 1;
 CREATE TABLE liste_secteurs(
     liste_secteur_id integer DEFAULT use_sec_seq.NEXTVAL NOT NULL,
     secteur_id int,
-    user_id int
+    user_id int,
+    profession varchar(25 char)
 );
 <<<<<<< HEAD
 

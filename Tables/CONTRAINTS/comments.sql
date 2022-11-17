@@ -21,9 +21,6 @@ is 'email de user';
 comment on column utilisateurs.mot_de_passe
 is 'Mot de passe de user';
 
-comment on column utilisateurs.profession
-is 'profession de user';
-
 comment on column utilisateurs.statut
 is 'statut de user';
 
@@ -180,3 +177,6 @@ is 'Identifiant des secteur';
 
 comment on column liste_secteurs.secteur_id
 is 'Identifiant des secteur';
+
+comment on column liste_secteurs.profession
+is 'profession de user';
