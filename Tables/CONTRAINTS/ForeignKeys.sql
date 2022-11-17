@@ -4,13 +4,14 @@ ALTER TABLE candidature
 ADD CONSTRAINT utilisateur_id_fk FOREIGN KEY 
 (user_id) REFERENCES users(user_id);
 
-ALTER TABLE candidature
+ALTER TABLE candidatures
 ADD CONSTRAINT publication_id_fk FOREIGN KEY
 (publication_id) REFERENCES publication(publication_id);
 
-ALTER TABLE candidature
+ALTER TABLE candidatures
 ADD CONSTRAINT besoins_rea_id_fk FOREIGN KEY
-(besoin_rea_id) besoin_realise(besoin_realise_id);
+(besoin_rea_id) besoins_realise(besoins_realiser_id);
+
 
 ALTER TABLE publication
 ADD CONSTRAINT besoin_id_fk FOREIGN KEY

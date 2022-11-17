@@ -27,7 +27,13 @@ DROP sequence bes_seq;
 DROP sequence be_rea_seq;
 
 
+<<<<<<< HEAD
 PROMPT Creating table utilisateur
+=======
+
+
+PROMPT Creating table utilisateurs
+>>>>>>> 31a711655a2a699c807300df737805655dc04a0a
 CREATE sequence user_seq START WITH 1;
 CREATE TABLE utilisateurs(
     user_id integer DEFAULT user_seq.NEXTVAL NOT NULL,
@@ -40,23 +46,25 @@ CREATE TABLE utilisateurs(
     profession VARCHAR(35 CHAR) 
 );
 
-PROMPT Creating table candidature 
+PROMPT Creating table candidatures 
 CREATE sequence can_seq START WITH 1;
 CREATE TABLE candidatures(
     candidature_id integer DEFAULT can_seq.NEXTVAL NOT NULL,
     date_candidature DATE ,
-    statut_candidature VARCHAR(15 CHAR),
+    statut_candidature VARCHAR(15),
     proposition float(40),
     publication_id int,
+    besoins_rea_id int,
     user_id int
 );
-PROMPT Creating table publication
+
+PROMPT Creating table publications
 CREATE sequence pub_seq START WITH 1;
 CREATE TABLE publications(
 publication_id integer DEFAULT pub_seq.NEXTVAL NOT NULL,
 publication_date DATE ,
 salaire float ,
-death_line VARCHAR(35),
+death_line DATE,
 duree VARCHAR(20),
 statut_publication VARCHAR(10 CHAR),
 description VARCHAR(50 CHAR),
@@ -74,12 +82,12 @@ CREATE TABLE besoin_realise(
 );
 
 
-PROMPT Creating table recommendation
+PROMPT Creating table recommendations
 CREATE sequence recomm_seq START WITH 1;
 CREATE TABLE recommendations(
     recommendation_id integer DEFAULT recomm_seq.NEXTVAL NOT NULL,
     recom_nom VARCHAR(40 CHAR),
-    recom_numero INT,
+    recom_numero INT, 
     recom_email VARCHAR(30 CHAR),
     recom_contenue VARCHAR(50),
     recom_statut VARCHAR (33 CHAR),
@@ -92,10 +100,9 @@ CREATE TABLE secteurs(
     secteur_id VARCHAR(5),
     secteur_nom VARCHAR(22 CHAR),
     secteur_description VARCHAR( 50 CHAR),
-    nombre_utilisateur INT
 );
 
-PROMPT Creating table liste_secteur
+PROMPT Creating table liste_secteurs
 CREATE sequence use_sec_seq START WITH 1;
 CREATE TABLE liste_secteurs(
     liste_secteur_id integer DEFAULT use_sec_seq.NEXTVAL NOT NULL,
@@ -103,7 +110,12 @@ CREATE TABLE liste_secteurs(
     user_id int
 );
 
+<<<<<<< HEAD
 PROMPT Creating table besions                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+=======
+PROMPT Creating table besoins
+
+>>>>>>> 31a711655a2a699c807300df737805655dc04a0a
 CREATE sequence bes_seq START WITH 1;
 CREATE TABLE BESOINS(
     besoin_id integer DEFAULT bes_seq.NEXTVAL NOT NULL,
@@ -116,3 +128,17 @@ CREATE TABLE BESOINS(
 );
 
 
+<<<<<<< HEAD
+=======
+--publication
+-- utilisation de timestamp sur des champ date
+-- utilisation de timestamp sur un champ varchar
+-- utilisation de 
+
+--besoins
+ -- ne pas preciser temps plein ou pas dans la creation des besoins c'est deja fait dans la publication
+ -- pas de cle etrangeres
+
+--secteur
+ -- penser a remplir les valeurs de la colonne nbr_utilisateurs grace a une fonctionalite
+>>>>>>> 31a711655a2a699c807300df737805655dc04a0a
