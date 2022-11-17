@@ -42,7 +42,7 @@ CREATE TABLE utilisateurs(
     profession VARCHAR(35 CHAR) 
 );
 
-PROMPT Creating table candidature 
+PROMPT Creating table candidatures 
 CREATE sequence can_seq START WITH 1;
 CREATE TABLE candidatures(
     candidature_id integer DEFAULT can_seq.NEXTVAL NOT NULL,
@@ -50,6 +50,7 @@ CREATE TABLE candidatures(
     statut_candidature VARCHAR(15 CHAR),
     proposition float(40),
     publication_id int,
+    besoins_rea_id int,
     user_id int
 );
 
@@ -82,7 +83,7 @@ CREATE sequence recomm_seq START WITH 1;
 CREATE TABLE recommendations(
     recommendation_id integer DEFAULT recomm_seq.NEXTVAL NOT NULL,
     recom_nom VARCHAR(40 CHAR),
-    recom_numero INT,
+    recom_numero INT, 
     recom_email VARCHAR(30 CHAR),
     recom_contenue VARCHAR(50),
     recom_statut VARCHAR (33 CHAR),
@@ -94,7 +95,7 @@ CREATE TABLE secteurs(
     secteur_id VARCHAR(5),
     secteur_nom VARCHAR(22 CHAR),
     secteur_description VARCHAR( 50 CHAR),
-    nombre_utilisateur INT
+    -- nombre_utilisateur INT
 );
 
 PROMPT Creating table liste_secteur
@@ -105,7 +106,8 @@ CREATE TABLE liste_secteurs(
     user_id int
 );
 
-PROMPT Creating table besion`
+PROMPT Creating table besion
+
 CREATE sequence bes_seq START WITH 1;
 CREATE TABLE BESOINS(
     besoin_id integer DEFAULT bes_seq.NEXTVAL NOT NULL,
@@ -115,7 +117,7 @@ CREATE TABLE BESOINS(
     user_id int,
     secteur_id varchar(5)
 );
-`
+
 
 --publication
 -- utilisation de timestamp sur des champ date
@@ -123,8 +125,8 @@ CREATE TABLE BESOINS(
 -- utilisation de 
 
 --besoins
- -- ne pas preciser temps plein ou pas dans la creation des besoins c'est deja fait dans la publication4
+ -- ne pas preciser temps plein ou pas dans la creation des besoins c'est deja fait dans la publication
  -- pas de cle etrangeres
 
---sectteur
+--secteur
  -- penser a remplir les valeurs de la colonne nbr_utilisateurs grace a une fonctionalite

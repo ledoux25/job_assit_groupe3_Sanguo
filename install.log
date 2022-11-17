@@ -1,318 +1,472 @@
 DEleting existing tables
-DROP TABLE utilisateurs cascade constraints
+
+Table supprimï¿½e.
+
+Table supprimï¿½e.
+
+
+Table supprimï¿½e.
+Table supprimï¿½e.
+
+
+DROP TABLE publications cascade constraints
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
+Table supprimï¿½e.
 
-Table supprimée.
 
-
-Table supprimée.
-
-DROP TABLE besoin_realise cascade constraints
+DROP TABLE recommendations cascade constraints
            *
-ERREUR à la ligne 1 :
+ERREUR ï¿½ la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
-
-Table supprimée.
-
-
-Table supprimée.
-
-
-Table supprimée.
+DROP TABLE secteurs cascade constraints
+           *
+ERREUR ï¿½ la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Table supprimée.
+DROP TABLE liste_secteurs cascade constraints
+           *
+ERREUR ï¿½ la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+DROP TABLE BESOINS cascade constraints
+           *
+ERREUR ï¿½ la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+DEleting existing sequence
+DROP sequence user_seq
+              *
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas 
+
+
+DROP sequence can_seq
+              *
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas 
+
+
+DROP sequence pub_seq
+              *
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas 
+
+
+DROP sequence  recomm_seq
+               *
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas 
+
+
+DROP sequence use_sec_seq
+              *
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas 
+
+
+DROP sequence bes_seq
+              *
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas 
+
+
+DROP sequence be_rea_seq
+              *
+ERREUR ï¿½ la ligne 1 :
+ORA-02289: la sï¿½quence n'existe pas 
+
+Table supprimï¿½e.
+
+
+Table supprimï¿½e.
+
+
+Table supprimï¿½e.
+
+
+Table supprimï¿½e.
+
+
+Table supprimï¿½e.
+
+DROP TABLE secteurs cascade constraints
+           *
+ERREUR ï¿½ la ligne 1 :
+ORA-00054: ressource occupï¿½e et acquisition avec NOWAIT indiquï¿½ ou expiration 
+
+
+
+Table supprimï¿½e.
+
+
+Table supprimï¿½e.
 
 DEleting existing sequence
 
-Séquence supprimée.
+Sï¿½quence supprimï¿½e.
 
 
-Séquence supprimée.
+Sï¿½quence supprimï¿½e.
 
 
-Séquence supprimée.
+Sï¿½quence supprimï¿½e.
 
 
-Séquence supprimée.
+Sï¿½quence supprimï¿½e.
 
 
-Séquence supprimée.
+Sï¿½quence supprimï¿½e.
 
 
-Séquence supprimée.
+Sï¿½quence supprimï¿½e.
 
 
-Séquence supprimée.
+Sï¿½quence supprimï¿½e.
 
 Creating table utilisateur
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
+
+
+Table crï¿½ï¿½e.
 
 Creating table candidature
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Creating table publication
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Creating table besoins_realise
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
+CREATE TABLE besoin_realiser(
+             *
+ERREUR ï¿½ la ligne 1 :
+ORA-00955: ce nom d'objet existe dï¿½jï¿½ 
 
-Table créée.
 
 Creating table recommendation
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
 Creating table secteurs
+CREATE TABLE secteurs(
+             *
+ERREUR ï¿½ la ligne 1 :
+ORA-00955: ce nom d'objet existe dï¿½jï¿½ 
+ERREUR ï¿½ la ligne 1 :
+ORA-00955: ce nom d'objet existe dï¿½jï¿½ 
 
-Table créée.
 
 Creating table liste_secteur
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
-Creating table besion`
+Creating table besion
 
-Séquence créée.
+Sï¿½quence crï¿½ï¿½e.
 
 
-Table créée.
+Table crï¿½ï¿½e.
 
-SP2-0042: commande inconnue "`" - reste de la ligne ignoré.
 creating comments users by CHIEMO WANDJI
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
+Commentaire crï¿½ï¿½.
+
+
+Commentaire crï¿½ï¿½.
+
+
+Commentaire crï¿½ï¿½.
+
+
+Commentaire crï¿½ï¿½.
+
+
+Commentaire crï¿½ï¿½.
+
+
+Commentaire crï¿½ï¿½.
+
+
+Commentaire crï¿½ï¿½.
+
+
+Commentaire crï¿½ï¿½.
+
+
+Commentaire crï¿½ï¿½.
 
 creating comments CANDIDATURE by CHIEMO WANDJI
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 creating comments PUBLICATION by CHIEMO WANDJI
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 creating comments BESOIN by CHIEMO WANDJI
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 creating comments besoin_realise by CHIEMO WANDJI
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
+Commentaire crï¿½ï¿½.
+
+
+Commentaire crï¿½ï¿½.
+
+
+Commentaire crï¿½ï¿½.
+
+
+Commentaire crï¿½ï¿½.
+
+
+Commentaire crï¿½ï¿½.
 
 creating comments RECOMMANDATION by CHIEMO WANDJI
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 creating comments secteur by CHIEMO WANDJI
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 creating comments liste_secteur by CHIEMO WANDJI
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 
-Commentaire créé.
+Commentaire crï¿½ï¿½.
 
 creating constraint
 
-Table modifiée.
+Table modifiï¿½e.
+
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
+
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
 
 
-Table modifiée.
+Table modifiï¿½e.
+
+
+Table modifiï¿½e.
+
+
+Table modifiï¿½e.
+
+
+Table modifiï¿½e.
 
 INSERTING DATA
 INSERTING into SECTEURS
 
-Procédure PL/SQL terminée avec succès.
+Table modifiï¿½e.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 INSERTING into recommendations
 
-Procédure PL/SQL terminée avec succès.
+Table modifiï¿½e.
+
+INSERTING DATA
+INSERTING into SECTEURS
+
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+
+INSERTING into recommendations
+
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 INSERTING into UTILISATEURS
-begin
-*
-ERREUR à la ligne 1 :
-ORA-02290: violation de contraintes (SYSTEM.STATUT) de vérification 
-ORA-06512: à ligne 4 
 
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
+
+INSERTING into UTILISATEURS
+
+Procï¿½dure PL/SQL terminï¿½e avec succï¿½s.
 
 "-----------------------------------------------------MADE BY-----------------------------------------"
 "-----------------------------------------------------SANGUO-----------------------------------------"
