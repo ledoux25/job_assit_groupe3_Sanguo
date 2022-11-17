@@ -1,111 +1,202 @@
 DEleting existing tables
-Deleting existing APPLICANTS
-
-Table supprimée.
-
-Deleting existing PROPOSERS
-
-Table supprimée.
-
-Deleting existing LOCATIONS
-
-Table supprimée.
-
-Deleting existing JOB_DONE
-
-Table supprimée.
-
-Deleting existing OFFERS
-
-Table supprimée.
-
-deleting existing SECTOR
-DROP TABLE SECTORS cascade constraints
+DROP TABLE utilisateurs cascade constraints
            *
 ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
-deleting existing SOUSCRIPTIONS
-DROP TABLE SOUSCRIPTIONS cascade constraints
+DROP TABLE  candidatures cascade constraints
+            *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+DROP TABLE publications cascade constraints
            *
 ERREUR à la ligne 1 :
 ORA-00942: Table ou vue inexistante 
 
 
+DROP TABLE besoin_realise cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
-Séquence supprimée.
 
-  DROP sequence prop_seq 
-                *
+DROP TABLE recommendations cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+DROP TABLE secteurs cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+DROP TABLE liste_secteurs cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+DROP TABLE BESOINS cascade constraints
+           *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+DEleting existing sequence
+DROP sequence user_seq
+              *
 ERREUR à la ligne 1 :
 ORA-02289: la séquence n'existe pas 
 
 
-   DROP sequence offer_seq 
+DROP sequence can_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+DROP sequence pub_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+DROP sequence  recomm_seq
+               *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+DROP sequence use_sec_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+DROP sequence bes_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+DROP sequence be_rea_seq
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+Creating table utilisateur
+
+Séquence créée.
+
+SP2-0042: commande inconnue ")" - reste de la ligne ignoré.
+Creating table candidature
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table publication
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table besoins_realise
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table recommendation
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table secteurs
+
+Table créée.
+
+Creating table liste_secteur
+
+Séquence créée.
+
+
+Table créée.
+
+Creating table besion
+
+Séquence créée.
+
+
+Table créée.
+
+creating comments users by CHIEMO WANDJI
+comment on table utilisateurs
                  *
 ERREUR à la ligne 1 :
-ORA-02289: la séquence n'existe pas 
+ORA-00942: Table ou vue inexistante 
 
 
-Creating table APPLICANTS
-
-Séquence créée.
-
-
-Table créée.
-
-Creating table PROPOSER
-
-Séquence créée.
+comment on column utilisateurs.user_id
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Table créée.
-
-Creating table JOBS_DONE
-
-Table créée.
-
-Creating table OFFERS
-
-Séquence créée.
+comment on column utilisateurs.nom
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Table créée.
-
-Creating table LOCATIONS
-
-Table créée.
-
-Creating table SECTOR
-
-Table créée.
-
-Creating table
-
-Table créée.
-
-creating comments offers by kanteu maxime
-
-Commentaire créé.
+comment on column utilisateurs.prenom
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Commentaire créé.
+comment on column utilisateurs.numero
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Commentaire créé.
+comment on column utilisateurs.email
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Commentaire créé.
+comment on column utilisateurs.mot_de_passe
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
-creating comments locations by kanteu maxime
 
-Commentaire créé.
+comment on column utilisateurs.profession
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Commentaire créé.
+comment on column utilisateurs.statut
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
-creating comments proposer by kanteu maxime
+
+creating comments CANDIDATURE by CHIEMO WANDJI
 
 Commentaire créé.
 
@@ -124,20 +215,7 @@ Commentaire créé.
 
 Commentaire créé.
 
-
-Commentaire créé.
-
-creating comments jobs by malonju
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-creating comments applicant by malonju
+creating comments PUBLICATION by CHIEMO WANDJI
 
 Commentaire créé.
 
@@ -165,23 +243,7 @@ Commentaire créé.
 
 Commentaire créé.
 
-
-Commentaire créé.
-
-creating comments job_done by malonju
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-creating comments SOUSCRIPTIONS by malonju
+creating comments BESOIN by CHIEMO WANDJI
 
 Commentaire créé.
 
@@ -197,7 +259,41 @@ Commentaire créé.
 
 Commentaire créé.
 
-creating comments JOBS_DONE by kanteu
+
+Commentaire créé.
+
+creating comments besoin_realise by CHIEMO WANDJI
+comment on table besoins_realiser
+                 *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column besoins_realiser.besoin_realiser_id
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column besoins_realiser.note
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column besoins_realiser.commentaire
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column besoins_realiser.candidature_id
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+creating comments RECOMMANDATION by CHIEMO WANDJI
 
 Commentaire créé.
 
@@ -207,6 +303,38 @@ Commentaire créé.
 
 Commentaire créé.
 
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments secteur by CHIEMO WANDJI
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+
+Commentaire créé.
+
+creating comments liste_secteur by CHIEMO WANDJI
 
 Commentaire créé.
 
@@ -220,20 +348,11 @@ Commentaire créé.
 Commentaire créé.
 
 creating constraint
+ALTER TABLE recommendations ADD CONSTRAINT recom_email unique (recom_email)
+*
+ERREUR à la ligne 3 :
+ORA-00904:  : identificateur non valide 
 
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
 
 
 Table modifiée.
@@ -241,96 +360,49 @@ Table modifiée.
 
 Table modifiée.
 
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
+ALTER TABLE utilisateurs ADD CONSTRAINT utilisateurs_numero unique (numero) 
+*
+ERREUR à la ligne 3 :
+ORA-00904:  : identificateur non valide 
 
 
-Table modifiée.
+ALTER TABLE utilisateurs ADD CONSTRAINT utilisateurs_email unique (email) 
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Table modifiée.
+ALTER TABLE utilisateurs ADD CONSTRAINT utilisateurs_passeword unique (mot_de_passe) 
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Table modifiée.
-
-Creatig PRIMARY KEYS
-
-Table modifiée.
-
-
-Table modifiée.
+ALTER TABLE utilisateurs ADD CONSTRAINT statut
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Table modifiée.
+ALTER TABLE utilisateurs ADD CONSTRAINT utilisateur_gender
+*
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Table modifiée.
+ALTER TABLE besoin_realise ADD CONSTRAINT note
+*
+ERREUR à la ligne 3 :
+ORA-00904:  : identificateur non valide 
 
 
-Table modifiée.
+ALTER TABLE publications ADD CONSTRAINT statut_publication
+*
+ERREUR à la ligne 3 :
+ORA-00904:  : identificateur non valide 
 
 
-Table modifiée.
-
-
-Table modifiée.
-
-Creating foreignKeys
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-
-Table modifiée.
-
-INSERTING
-INSERTING into SECTORS
-
-Procédure PL/SQL terminée avec succès.
-
-INSERTING into JOBS
-
-Procédure PL/SQL terminée avec succès.
-
-INSERTING into SOUSCRIPTIONS
-
-Procédure PL/SQL terminée avec succès.
-
-INSERTING PROPOSERS
-
-Procédure PL/SQL terminée avec succès.
-
-INSERTING APPLICANTS
-
-Procédure PL/SQL terminée avec succès.
-
-INSERTING INTO OFFERS
-
-Procédure PL/SQL terminée avec succès.
-
+SP2-0310: impossible d'ouvrir le fichier "TABLES\data.sql"
 "-----------------------------------------------------MADE BY-----------------------------------------"
 "-----------------------------------------------------SANGUO-----------------------------------------"
 "-----------------------------------------------------TOKO-------------------------------------------"

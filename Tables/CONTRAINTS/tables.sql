@@ -35,12 +35,19 @@ CREATE TABLE utilisateurS§(
     user_id integer DEFAULT user_seq.NEXTVAL NOT NULL,
     nom VARCHAR(45 CHAR), 
     prenom VARCHAR(45 CHAR),
+    genre VARCHAR(4 CHAR),
     numero VARCHAR(13 char),
     email VARCHAR(45 CHAR),
     mot_de_passe varchar(20 char),
+<<<<<<< HEAD
     statut VARCHAR(15 CHAR) DEFAULT 'LIBRE',
     profession VARCHAR(35 CHAR) ,
     admin_id integer
+=======
+    statut VARCHAR(15 CHAR),
+    profession VARCHAR(35 CHAR)
+    
+>>>>>>> 13e9de2f861e49292620629bfede290526a9dab3
 );
 
 PROMPT Creating table candidature 
@@ -67,10 +74,10 @@ besoin_id int
 );
 
 
-PROMPT Creating table besoin_realise
+PROMPT Creating table besoins_realise
 CREATE sequence be_rea_seq START WITH 1;
 CREATE TABLE besoin_realiser(
-    besoin_realiser_id integer DEFAULT be_rea_seq.NEXTVAL NOT NULL,
+    besoins_realiser_id integer DEFAULT be_rea_seq.NEXTVAL NOT NULL,
     note float ,
     commentaire VARCHAR( 50 CHAR),
     candidature_id int

@@ -1,5 +1,6 @@
 ALTER SESSION SET NLS_LANGUAGE=French;
 ALTER session set NLS_DATE_FORMAT='DD/MM/YYYY';
+ALTER SESSION SET NLS_CHARSET=utf8;
 set define on 
 set verify off
 -- alter session set container=xepdb1;
