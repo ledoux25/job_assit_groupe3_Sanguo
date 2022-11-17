@@ -27,8 +27,6 @@ DROP sequence bes_seq;
 DROP sequence be_rea_seq;
 
 
-
-
 PROMPT Creating table utilisateur
 CREATE sequence user_seq START WITH 1;
 CREATE TABLE utilisateurs(
@@ -88,6 +86,7 @@ CREATE TABLE recommendations(
     user_id integer
 );
 
+
 PROMPT Creating table secteurs
 CREATE TABLE secteurs(
     secteur_id VARCHAR(5),
@@ -104,7 +103,7 @@ CREATE TABLE liste_secteurs(
     user_id int
 );
 
-PROMPT Creating table besion`````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+PROMPT Creating table besions                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 CREATE sequence bes_seq START WITH 1;
 CREATE TABLE BESOINS(
     besoin_id integer DEFAULT bes_seq.NEXTVAL NOT NULL,
@@ -113,7 +112,7 @@ CREATE TABLE BESOINS(
     localisation VARCHAR (15 char),
     user_id int,
     secteur_id varchar(5)
-);
 
+);
 
 

@@ -14,17 +14,17 @@ Table supprimée.
 
 Table supprimée.
 
-DROP TABLE secteurs cascade constraints
+
+Table supprimée.
+
+
+Table supprimée.
+
+DROP TABLE BESOINS cascade constraints
            *
 ERREUR à la ligne 1 :
-ORA-00054: ressource occupée et acquisition avec NOWAIT indiqué ou expiration 
+ORA-00942: Table ou vue inexistante 
 
-
-
-Table supprimée.
-
-
-Table supprimée.
 
 DEleting existing sequence
 
@@ -84,11 +84,8 @@ Séquence créée.
 Table créée.
 
 Creating table secteurs
-CREATE TABLE secteurs(
-             *
-ERREUR à la ligne 1 :
-ORA-00955: ce nom d'objet existe déjà 
 
+Table créée.
 
 Creating table liste_secteur
 
@@ -97,13 +94,11 @@ Séquence créée.
 
 Table créée.
 
-Creating table besion
+Creating table besions
 
 Séquence créée.
 
-
-Table créée.
-
+SP2-0042: commande inconnue ")" - reste de la ligne ignoré.
 creating comments users by CHIEMO WANDJI
 
 Commentaire créé.
@@ -180,23 +175,41 @@ Commentaire créé.
 Commentaire créé.
 
 creating comments BESOIN by CHIEMO WANDJI
-
-Commentaire créé.
-
-
-Commentaire créé.
-
-
-Commentaire créé.
+comment on table besoins
+                 *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Commentaire créé.
+comment on column besoins.besoin_id
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Commentaire créé.
+comment on column besoins.paiement_par
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
 
 
-Commentaire créé.
+comment on column besoins.user_id
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column besoins.localisation
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
+
+comment on column besoins.secteur_id
+                  *
+ERREUR à la ligne 1 :
+ORA-00942: Table ou vue inexistante 
+
 
 creating comments besoin_realise by CHIEMO WANDJI
 
@@ -306,8 +319,58 @@ INSERTING into recommendations
 Procédure PL/SQL terminée avec succès.
 
 INSERTING into UTILISATEURS
+begin
+*
+ERREUR à la ligne 1 :
+ORA-02290: violation de contraintes (SYSTEM.STATUT) de vérification 
+ORA-06512: à ligne 5 
 
-Procédure PL/SQL terminée avec succès.
+
+INSERTING into BESOINS
+INSERT INTO BESOINS(description,paiement_par,localisation)
+            *
+ERREUR à la ligne 2 :
+ORA-06550: Ligne 2, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 2, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 5, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 5, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 8, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 8, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 11, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 11, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 15, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 15, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 19, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 19, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 23, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 23, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 27, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 27, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 31, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 31, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+ORA-06550: Ligne 35, colonne 13 : 
+PL/SQL: ORA-00942: Table ou vue inexistante 
+ORA-06550: Ligne 35, colonne 1 : 
+PL/SQL: SQL Statement ignored 
+
 
 "-----------------------------------------------------MADE BY-----------------------------------------"
 "-----------------------------------------------------SANGUO-----------------------------------------"

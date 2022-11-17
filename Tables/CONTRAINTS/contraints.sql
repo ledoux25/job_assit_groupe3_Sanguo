@@ -21,3 +21,4 @@ ALTER TABLE candidatures ADD CONSTRAINT statut_candidature
 ALTER TABLE publications ADD CONSTRAINT statut_publication
                                 check (statut_publication in ('ouverte','fermer')) ;
 
+
