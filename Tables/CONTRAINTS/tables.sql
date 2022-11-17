@@ -29,7 +29,7 @@ DROP sequence be_rea_seq;
 
 
 
-PROMPT Creating table utilisateur
+PROMPT Creating table utilisateurs
 CREATE sequence user_seq START WITH 1;
 CREATE TABLE utilisateurs(
     user_id integer DEFAULT user_seq.NEXTVAL NOT NULL,
@@ -47,20 +47,20 @@ CREATE sequence can_seq START WITH 1;
 CREATE TABLE candidatures(
     candidature_id integer DEFAULT can_seq.NEXTVAL NOT NULL,
     date_candidature DATE ,
-    statut_candidature VARCHAR(15 CHAR),
+    statut_candidature VARCHAR(15),
     proposition float(40),
     publication_id int,
     besoins_rea_id int,
     user_id int
 );
 
-PROMPT Creating table publication
+PROMPT Creating table publications
 CREATE sequence pub_seq START WITH 1;
 CREATE TABLE publications(
 publication_id integer DEFAULT pub_seq.NEXTVAL NOT NULL,
 publication_date DATE ,
 salaire float ,
-death_line VARCHAR(35),
+death_line DATE,
 duree VARCHAR(20),
 statut_publication VARCHAR(10 CHAR),
 description VARCHAR(50 CHAR),
@@ -78,7 +78,7 @@ CREATE TABLE besoin_realise(
 );
 
 
-PROMPT Creating table recommendation
+PROMPT Creating table recommendations
 CREATE sequence recomm_seq START WITH 1;
 CREATE TABLE recommendations(
     recommendation_id integer DEFAULT recomm_seq.NEXTVAL NOT NULL,
@@ -95,10 +95,9 @@ CREATE TABLE secteurs(
     secteur_id VARCHAR(5),
     secteur_nom VARCHAR(22 CHAR),
     secteur_description VARCHAR( 50 CHAR),
-    -- nombre_utilisateur INT
 );
 
-PROMPT Creating table liste_secteur
+PROMPT Creating table liste_secteurs
 CREATE sequence use_sec_seq START WITH 1;
 CREATE TABLE liste_secteurs(
     liste_secteur_id integer DEFAULT use_sec_seq.NEXTVAL NOT NULL,
@@ -106,7 +105,7 @@ CREATE TABLE liste_secteurs(
     user_id int
 );
 
-PROMPT Creating table besion
+PROMPT Creating table besoins
 
 CREATE sequence bes_seq START WITH 1;
 CREATE TABLE BESOINS(
