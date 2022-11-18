@@ -37,3 +37,5 @@ VALUES (11,15,'tres bon ce gar',11);--11
 
 INSERT INTO besoin_realiser(besoins_realiser_id,note,commentaire,candidature_id)
 VALUES (12,0.5,'neglige mes enfants',12);--12
+end;
+/
