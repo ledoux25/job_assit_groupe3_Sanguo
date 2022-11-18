@@ -1,6 +1,6 @@
 PROMPT Creating table recommendations
 CREATE TABLE recommendations(
-    recommendation_id integer DEFAULT recomm_seq.NEXTVAL NOT NULL,
+    recommendation_id integer  NOT NULL,
     recom_nom VARCHAR(40 CHAR),
     recom_numero VARCHAR(13 char), 
     recom_email VARCHAR(30 CHAR),

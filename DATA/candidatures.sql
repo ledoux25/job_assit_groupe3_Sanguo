@@ -2,11 +2,11 @@ PROMPT inserting candidature
 SET DEFINE OFF;
 begin
 
-INSERT INTO candidature(date_candidature,statut_candidature, proposition, publication_id, user_id)VALUES('2018/01/26', 'retenue', '3500 de 21h30 a 05h',5,1)
+INSERT INTO candidature(date_candidature,statut_candidature, proposition, publication_id, user_id)VALUES(TO_DATE('01-01-2022','DD-MM-YYYY'), 'retenue', '3500 de 21h30 a 05h',5,1)
 
-INSERT INTO candidature(date_candidature,statut_candidature, proposition, publication_id, user_id) VALUES('2018/01/27', 'retenue', 'aucune', 1,31)
+INSERT INTO candidature(date_candidature,statut_candidature, proposition, publication_id, user_id) VALUES(TO_DATE('01-01-2022','DD-MM-YYYY'), 'retenue', 'aucune', 1,31)
 
-INSERT INTO candidature(date_candidature,statut_candidature, proposition, publication_id, user_id) VALUES('2018/02/05', 'confirmer', 'aucune', )
+INSERT INTO candidature(date_candidature,statut_candidature, proposition, publication_id, user_id) VALUES(TO_DATE('01-01-2022','DD-MM-YYYY'), 'confirmer', 'aucune', )
 
 INSERT INTO candidature(date_candidature,statut_candidature, proposition, publication_id, user_id) VALUES()
 

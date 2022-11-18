@@ -1,3 +1,3 @@
 lsnrctl start LISTENER
-sqlplus sys/pass as sysdba @main.sql
+sqlplus sys/pass as sysdba @run.sql
 

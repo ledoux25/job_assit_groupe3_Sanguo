@@ -1,9 +1,8 @@
-PROMPT ************************CREATION***********************
-@@secteurs
+PROMPT ************************Creation des sequence***********************
 @@recommendations
 @@utilisateur
 @@besoin
 @@candidature
 @@publication
-@@besoin_realiser
+@@besoins_realiser
 @@liste_secteur

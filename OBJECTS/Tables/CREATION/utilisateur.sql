@@ -1,6 +1,6 @@
 PROMPT Creating table utilisateurs
-CREATE TABLE utilisateurS§(
-    user_id integer DEFAULT user_seq.NEXTVAL NOT NULL,
+CREATE TABLE utilisateurS(
+    user_id integer NOT NULL,
     nom VARCHAR(45 CHAR), 
     prenom VARCHAR(45 CHAR),
     numero VARCHAR(13 char),

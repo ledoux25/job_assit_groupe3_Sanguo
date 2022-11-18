@@ -1,5 +1,4 @@
-PROMPT ************************Insertion des commentairee***********************
-@@secteurs
+PROMPT ************************Suppression des sequence***********************
 @@recommendations
 @@utilisateur
 @@besoin
