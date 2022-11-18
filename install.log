@@ -1,3 +1,4 @@
+SQL> @@OBJECTS/run
 **********************SUPRESSION****************************************
 Suppression de la table secteur
 
@@ -190,32 +191,53 @@ Index créé.
 
 ************************Suppression des sequence***********************
 suppression de la sequence
+DROP SEQUENCE recommendations_sequence
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
 
-Séquence supprimée.
-
-suppression de la sequence
-
-Séquence supprimée.
-
-suppression de la sequence
-
-Séquence supprimée.
 
 suppression de la sequence
+DROP SEQUENCE utilisateur_sequence
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
 
-Séquence supprimée.
-
-suppression de la sequence
-
-Séquence supprimée.
-
-suppression de la sequence
-
-Séquence supprimée.
 
 suppression de la sequence
+DROP SEQUENCE besion_sequence
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
 
-Séquence supprimée.
+
+suppression de la sequence
+DROP SEQUENCE candidature_sequence
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+suppression de la sequence
+DROP SEQUENCE publication_sequence
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+suppression de la sequence
+DROP SEQUENCE besion_realiser_sequence
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
+
+suppression de la sequence
+DROP SEQUENCE liste_secteur_sequence
+              *
+ERREUR à la ligne 1 :
+ORA-02289: la séquence n'existe pas 
+
 
 ************************Creation des sequence***********************
 Creation de la id_auto_increment de la table recommandations
@@ -411,6 +433,7 @@ Commentaire créé.
 
 Commentaire créé.
 
+SQL> @@DATA/run
 ************************INSERTION***********************
 INSERTING into UTILISATEURS
 
@@ -429,7 +452,7 @@ INSERTING into besoin
 Procédure PL/SQL terminée avec succès.
 
 inserting candidature
-INSERT INTO candidature(date_candidature,statut_candidature, proposition, publication_id, user_id) VALUES('2018/01/27', 'retenue', 'aucune', 1,31)
+INSERT INTO candidature(date_candidature,statut_candidature, proposition, publication_id, user_id) VALUES(TO_DATE('01-01-2022','DD-MM-YYYY'), 'retenue', 'aucune', 1,31)
 *
 ERREUR à la ligne 5 :
 ORA-06550: Ligne 4, colonne 2 : 
@@ -438,9 +461,17 @@ ORA-06550: Ligne 3, colonne 1 :
 PL/SQL: SQL Statement ignored 
 
 
+SQL> 
+SQL> PROMPT "-----------------------------------------------------MADE BY-----------------------------------------"
 "-----------------------------------------------------MADE BY-----------------------------------------"
+SQL> PROMPT "-----------------------------------------------------SANGUO-----------------------------------------"
 "-----------------------------------------------------SANGUO-----------------------------------------"
+SQL> PROMPT "-----------------------------------------------------TOKO-------------------------------------------"
 "-----------------------------------------------------TOKO-------------------------------------------"
+SQL> PROMPT "-----------------------------------------------------CHIEMO-----------------------------------------"
 "-----------------------------------------------------CHIEMO-----------------------------------------"
+SQL> PROMPT "-----------------------------------------------------KANTEU-----------------------------------------"
 "-----------------------------------------------------KANTEU-----------------------------------------"
+SQL> PROMPT "-----------------------------------------------------MALONJU-----------------------------------------"
 "-----------------------------------------------------MALONJU-----------------------------------------"
+SQL> spool off

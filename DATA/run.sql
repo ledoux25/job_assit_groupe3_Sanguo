@@ -5,4 +5,5 @@ PROMPT ************************INSERTION***********************
 @@besoins
 @@candidatures
 @@publication
+@@besoins_realiser
 -- @@liste_secteur
