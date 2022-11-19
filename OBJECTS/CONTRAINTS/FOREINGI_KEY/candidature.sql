@@ -6,8 +6,8 @@ ADD CONSTRAINT utilisateur_id_c_fk FOREIGN KEY
 
 ALTER TABLE candidatures
 ADD CONSTRAINT publication_id_fk FOREIGN KEY
-(publication_id) REFERENCES publications(publication_id);
+(publication_id) REFERENCES publications(publication_id) ON DELETE cascade;
 
 ALTER TABLE candidatures
 ADD CONSTRAINT besoins_rea_id_fk FOREIGN KEY
-(besoin_rea_id) REFERENCES besoin_realiser(besoin_realiser_id);
+(besoin_rea_id) REFERENCES besoin_realiser(besoin_realiser_id )ON DELETE cascade;

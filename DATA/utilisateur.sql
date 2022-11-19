@@ -3,7 +3,7 @@ PROMPT INSERTING into UTILISATEURS
 SET DEFINE OFF;
 begin
 
-INSERT INTO utilisateurs(user_id, nom, prenom, numero, email, mot_de_passe, statut) VALUES (1,'Sanguo','Joseph','690-375-863','sanguojoseph5@gmail.com','admin','LIBRE');--1
+INSERT INTO utilisateurs(user_id, nom, prenom, numero, email, mot_de_passe, statut, admin_id) VALUES (1,'Sanguo','Joseph','690-375-863','sanguojoseph5@gmail.com','admin','LIBRE','YES');--1
 INSERT INTO UTILISATEURS(user_id, nom, prenom, numero, email, mot_de_passe, statut) VALUES (2,'Atsangou','Darel','692-345-123','atsangoudarel23@gmail.com','atsa','LIBRE');--2
 INSERT INTO UTILISATEURS(user_id, nom, prenom, numero, email, mot_de_passe, statut) VALUES (3,'Chiemo','Patrice','656-239-003','Chiemopatrice03@gmail.com','chie','OCCUPER');
 INSERT INTO UTILISATEURS(user_id, nom, prenom, numero, email, mot_de_passe, statut) VALUES (4,'Awounan','Ptone','677-340-323','aowounangstonel23@gmail.com','awou','BLOQUER');--4

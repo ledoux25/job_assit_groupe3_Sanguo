@@ -1,4 +1,4 @@
--- @@USER/run
+-- @@OBJECTS/USER/run
 @@OBJECTS/Tables/run
 @@OBJECTS/CONTRAINTS/run
 @@OBJECTS/INDEX/run

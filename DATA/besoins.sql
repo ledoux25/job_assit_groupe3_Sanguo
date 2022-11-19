@@ -11,7 +11,7 @@ INSERT INTO BESOINS(besoin_id,paiement_par,localisation,user_id,secteur_id) VALU
 INSERT INTO BESOINS(besoin_id,paiement_par,localisation,user_id,secteur_id) VALUES (9,'SEMAINE','Bafan',10,'COUTU');
 INSERT INTO BESOINS(besoin_id,paiement_par,localisation,user_id,secteur_id) VALUES (10,'JOUR','Douala',11,'SECUR');--1
 INSERT INTO BESOINS(besoin_id,paiement_par,localisation,user_id,secteur_id) VALUES (11,'JOUR','Yaounde',12,'TECHN');
-INSERT INTO BESOINS(besoin_id,paiement_par,localisation,user_id,secteur_id) VALUES (12,'SEMAINE','Bafan',3,'DOMES');
+INSERT INTO BESOINS(besoin_id,paiement_par,localisation,user_id,secteur_id) VALUES (12,'SEMAINE','Bafan',3,'SECUR');
 INSERT INTO BESOINS(besoin_id,paiement_par,localisation,user_id,secteur_id) VALUES (13,'JOUR','Edea',6,'INTER');--1
 INSERT INTO BESOINS(besoin_id,paiement_par,localisation,user_id,secteur_id) VALUES (14,'JOUR','Douala',5,'TECHN');--1
 INSERT INTO BESOINS(besoin_id,paiement_par,localisation,user_id,secteur_id) VALUES (15,'MOIS','Yaounde',1,'DOMES');--1

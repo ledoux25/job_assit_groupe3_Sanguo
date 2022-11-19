@@ -1,6 +1,5 @@
 ALTER SESSION SET NLS_LANGUAGE=French;
 ALTER session set NLS_DATE_FORMAT='DD/MM/YYYY';
-ALTER SESSION SET NLS_CHARSET=UTF-8;
 set define on 
 set verify off
 spool install.log

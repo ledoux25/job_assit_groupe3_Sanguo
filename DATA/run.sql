@@ -3,6 +3,7 @@ PROMPT ************************INSERTION***********************
 @@secteur
 @@recommendation
 @@besoins
-@@candidatures
 @@publication
+@@liste_secteurs
+@@candidatures
 -- @@liste_secteur

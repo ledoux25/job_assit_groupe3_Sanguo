@@ -150,7 +150,13 @@ Creation contraint sur utilisateur.statut
 
 Table modifiée.
 
+
+Table modifiée.
+
 Creating table recommendations
+
+Table modifiée.
+
 
 Table modifiée.
 
@@ -158,7 +164,10 @@ Creating table candidatures
 
 Table modifiée.
 
-SP2-0310: impossible d'ouvrir le fichier "OBJECTS/CONTRAINTS/CHECK/besion_realiser.sql"
+Creating table besoins_realise
+
+Table modifiée.
+
 Creating table besoins
 
 Table modifiée.
@@ -428,15 +437,17 @@ INSERTING into besoin
 
 Procédure PL/SQL terminée avec succès.
 
-inserting candidature
-INSERT INTO candidature(date_candidature,statut_candidature, proposition, publication_id, user_id) VALUES('2018/01/27', 'retenue', 'aucune', 1,31)
-*
-ERREUR à la ligne 5 :
-ORA-06550: Ligne 4, colonne 2 : 
-PL/SQL: ORA-00933: la commande SQL ne se termine pas correctement 
-ORA-06550: Ligne 3, colonne 1 : 
-PL/SQL: SQL Statement ignored 
+INSERTING IN PUBLICATION
 
+Procédure PL/SQL terminée avec succès.
+
+inserting table liste_Secteur
+
+Procédure PL/SQL terminée avec succès.
+
+inserting candidature
+
+Procédure PL/SQL terminée avec succès.
 
 "-----------------------------------------------------MADE BY-----------------------------------------"
 "-----------------------------------------------------SANGUO-----------------------------------------"

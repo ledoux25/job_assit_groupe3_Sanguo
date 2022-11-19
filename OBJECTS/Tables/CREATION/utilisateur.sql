@@ -7,5 +7,5 @@ CREATE TABLE utilisateurS(
     email VARCHAR(45 CHAR),
     mot_de_passe varchar(20 char),
     statut VARCHAR(15 CHAR) DEFAULT 'LIBRE',
-    admin_id integer
+    admin_id VARCHAR(3 CHAR)
 );
